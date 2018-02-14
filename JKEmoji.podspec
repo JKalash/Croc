@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'FantasticView'
+  s.name             = 'JKEmoji'
   s.version          = '0.1.0'
   s.summary          = 'Elegant Emoji Parsing in Swift'
  
