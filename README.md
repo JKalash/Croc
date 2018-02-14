@@ -1,2 +1,2 @@
 # JKEmoji
-Swift emojis string parsing library
+Elegant Emoji parsing in Swift
