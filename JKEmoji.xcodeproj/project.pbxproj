@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3ED8651A2034A944005B63ED /* JKEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED865182034A944005B63ED /* JKEmoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ED865212034ACFA005B63ED /* JKEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED865202034ACFA005B63ED /* JKEmoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3ED865152034A944005B63ED /* JKEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ED865182034A944005B63ED /* JKEmoji.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKEmoji.h; sourceTree = "<group>"; };
 		3ED865192034A944005B63ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED865202034ACFA005B63ED /* JKEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKEmoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +46,8 @@
 		3ED865172034A944005B63ED /* JKEmoji */ = {
 			isa = PBXGroup;
 			children = (
-				3ED865182034A944005B63ED /* JKEmoji.h */,
 				3ED865192034A944005B63ED /* Info.plist */,
+				3ED865202034ACFA005B63ED /* JKEmoji.swift */,
 			);
 			path = JKEmoji;
 			sourceTree = "<group>";
@@ -59,7 +59,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED8651A2034A944005B63ED /* JKEmoji.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +94,7 @@
 				TargetAttributes = {
 					3ED865142034A944005B63ED = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED865212034ACFA005B63ED /* JKEmoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +254,7 @@
 		3ED8651E2034A944005B63ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -267,6 +269,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmoji;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -275,6 +278,7 @@
 		3ED8651F2034A944005B63ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

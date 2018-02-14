@@ -13,6 +13,6 @@ A lightweight emoji string parsing library. Count the number of emojis in a stri
   s.source           = { :git => 'https://github.com/JKalash/JKEmoji.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '8.0'
-  s.source_files = 'JKEmoji/JKEmoji.swift'
+  s.source_files = 'Sources/JKEmoji.swift'
  
 end
