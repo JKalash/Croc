@@ -13,5 +13,3 @@ FOUNDATION_EXPORT double JKEmojiVersionNumber;
 
 //! Project version string for JKEmoji
 FOUNDATION_EXPORT const unsigned char JKEmojiVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <JKEmojiiOS/PublicHeader.h>

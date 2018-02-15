@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import JKEmoji
 
 class JKEmojiTests: XCTestCase {
     
