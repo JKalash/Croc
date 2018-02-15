@@ -7,21 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E1F4CD22035BB0600E2D4BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F4CCE2035BB0600E2D4BA /* LaunchScreen.storyboard */; };
-		3E1F4CD32035BB0600E2D4BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F4CD02035BB0600E2D4BA /* Main.storyboard */; };
-		3E1FB0552035B9E2002E4DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1FB0522035B9E1002E4DB9 /* Assets.xcassets */; };
 		3E1FB05A2035B9ED002E4DB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FB0582035B9ED002E4DB9 /* AppDelegate.swift */; };
 		3E1FB05B2035B9ED002E4DB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FB0592035B9ED002E4DB9 /* ViewController.swift */; };
+		3ED83F4C2035CECA009CADD6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ED83F4B2035CECA009CADD6 /* Info.plist */; };
+		3ED83F502035CEF9009CADD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ED83F4F2035CEF9009CADD6 /* Assets.xcassets */; };
+		3ED83F522035CF05009CADD6 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3ED83F512035CF05009CADD6 /* Base.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E1F4CCF2035BB0600E2D4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resources/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		3E1F4CD12035BB0600E2D4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resources/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		3E1FAFC92035A3F3002E4DB9 /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E1FB0522035B9E1002E4DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		3E1FB0542035B9E2002E4DB9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
 		3E1FB0582035B9ED002E4DB9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Source/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		3E1FB0592035B9ED002E4DB9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Source/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		3ED83F4B2035CECA009CADD6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		3ED83F4F2035CEF9009CADD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		3ED83F512035CF05009CADD6 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = Resources/Base.lproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +37,7 @@
 		3E1FAFC02035A3F3002E4DB9 = {
 			isa = PBXGroup;
 			children = (
-				3E1FAFCB2035A3F3002E4DB9 /* iOS Example */,
+				3E1FAFCB2035A3F3002E4DB9 /* Source */,
 				3E1FAFCA2035A3F3002E4DB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +50,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E1FAFCB2035A3F3002E4DB9 /* iOS Example */ = {
+		3E1FAFCB2035A3F3002E4DB9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				3ED83F4A2035CE4B009CADD6 /* Supporting Files */,
 				3E1FB0582035B9ED002E4DB9 /* AppDelegate.swift */,
 				3E1FB0592035B9ED002E4DB9 /* ViewController.swift */,
-				3E1FB0522035B9E1002E4DB9 /* Assets.xcassets */,
-				3E1FB0542035B9E2002E4DB9 /* Info.plist */,
-				3E1F4CCE2035BB0600E2D4BA /* LaunchScreen.storyboard */,
-				3E1F4CD02035BB0600E2D4BA /* Main.storyboard */,
 			);
-			path = "iOS Example";
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3ED83F4A2035CE4B009CADD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ED83F512035CF05009CADD6 /* Base.lproj */,
+				3ED83F4F2035CEF9009CADD6 /* Assets.xcassets */,
+				3ED83F4B2035CECA009CADD6 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E1F4CD32035BB0600E2D4BA /* Main.storyboard in Resources */,
-				3E1FB0552035B9E2002E4DB9 /* Assets.xcassets in Resources */,
-				3E1F4CD22035BB0600E2D4BA /* LaunchScreen.storyboard in Resources */,
+				3ED83F502035CEF9009CADD6 /* Assets.xcassets in Resources */,
+				3ED83F522035CF05009CADD6 /* Base.lproj in Resources */,
+				3ED83F4C2035CECA009CADD6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,25 +148,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3E1F4CCE2035BB0600E2D4BA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3E1F4CCF2035BB0600E2D4BA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		3E1F4CD02035BB0600E2D4BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3E1F4CD12035BB0600E2D4BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3E1FAFD92035A3F3002E4DB9 /* Debug */ = {
@@ -273,7 +260,6 @@
 		3E1FAFDC2035A3F3002E4DB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43S54AHEMG;
 				INFOPLIST_FILE = Resources/Info.plist;
@@ -288,7 +274,6 @@
 		3E1FAFDD2035A3F3002E4DB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43S54AHEMG;
 				INFOPLIST_FILE = Resources/Info.plist;
