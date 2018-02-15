@@ -7,53 +7,236 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3ED865282034B097005B63ED /* JKEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED865262034B097005B63ED /* JKEmoji.swift */; };
-		3ED865302034B0B6005B63ED /* JKEmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8652F2034B0B6005B63ED /* JKEmojiTests.swift */; };
-		3ED865322034B0B6005B63ED /* JKEmoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED865152034A944005B63ED /* JKEmoji.framework */; };
+		3E1FAFF42035B31C002E4DB9 /* JKEmojiiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1FAFEB2035B31B002E4DB9 /* JKEmojiiOS.framework */; };
+		3E1FAFF92035B31C002E4DB9 /* JKEmojiiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FAFF82035B31C002E4DB9 /* JKEmojiiOSTests.swift */; };
+		3E1FAFFB2035B31C002E4DB9 /* JKEmojiiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1FAFED2035B31B002E4DB9 /* JKEmojiiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E1FB00B2035B32C002E4DB9 /* JKEmojiWatchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1FB0092035B32C002E4DB9 /* JKEmojiWatchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E1FB01D2035B350002E4DB9 /* JKEmojiTVOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1FB0142035B350002E4DB9 /* JKEmojiTVOS.framework */; };
+		3E1FB0222035B350002E4DB9 /* JKEmojiTVOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FB0212035B350002E4DB9 /* JKEmojiTVOSTests.swift */; };
+		3E1FB0242035B350002E4DB9 /* JKEmojiTVOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1FB0162035B350002E4DB9 /* JKEmojiTVOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E1FB02B2035B356002E4DB9 /* JKEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED865262034B097005B63ED /* JKEmoji.swift */; };
+		3E1FB02C2035B356002E4DB9 /* JKEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED865262034B097005B63ED /* JKEmoji.swift */; };
+		3E1FB02D2035B357002E4DB9 /* JKEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED865262034B097005B63ED /* JKEmoji.swift */; };
+		3E1FB03C2035B382002E4DB9 /* JKEmojiOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1FB0332035B382002E4DB9 /* JKEmojiOSX.framework */; };
+		3E1FB0412035B382002E4DB9 /* JKEmojiOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FB0402035B382002E4DB9 /* JKEmojiOSXTests.swift */; };
+		3E1FB0432035B382002E4DB9 /* JKEmojiOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1FB0352035B382002E4DB9 /* JKEmojiOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E1FB04A2035B387002E4DB9 /* JKEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED865262034B097005B63ED /* JKEmoji.swift */; };
+		3E1FB04B2035B3B0002E4DB9 /* JKEmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8652F2034B0B6005B63ED /* JKEmojiTests.swift */; };
+		3E1FB04C2035B3B1002E4DB9 /* JKEmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8652F2034B0B6005B63ED /* JKEmojiTests.swift */; };
+		3E1FB04D2035B3B2002E4DB9 /* JKEmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8652F2034B0B6005B63ED /* JKEmojiTests.swift */; };
+		3E1FB04E2035B52A002E4DB9 /* JKEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED865262034B097005B63ED /* JKEmoji.swift */; };
+		3E1FB04F2035B52A002E4DB9 /* JKEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED865262034B097005B63ED /* JKEmoji.swift */; };
+		3E1FB0502035B52B002E4DB9 /* JKEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED865262034B097005B63ED /* JKEmoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3ED865332034B0B6005B63ED /* PBXContainerItemProxy */ = {
+		3E1F4CD82035BB1F00E2D4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E1F4CD42035BB1F00E2D4BA /* iOS Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E1FAFC92035A3F3002E4DB9;
+			remoteInfo = "iOS Example";
+		};
+		3E1FAFF52035B31C002E4DB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3ED8650C2034A944005B63ED /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3ED865142034A944005B63ED;
-			remoteInfo = JKEmoji;
+			remoteGlobalIDString = 3E1FAFEA2035B31B002E4DB9;
+			remoteInfo = JKEmojiiOS;
+		};
+		3E1FB01E2035B350002E4DB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ED8650C2034A944005B63ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E1FB0132035B350002E4DB9;
+			remoteInfo = JKEmojiTVOS;
+		};
+		3E1FB03D2035B382002E4DB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ED8650C2034A944005B63ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E1FB0322035B382002E4DB9;
+			remoteInfo = JKEmojiOSX;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3ED865152034A944005B63ED /* JKEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1F4CD42035BB1F00E2D4BA /* iOS Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "iOS Example.xcodeproj"; path = "Example/iOS Example.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		3E1FAFEB2035B31B002E4DB9 /* JKEmojiiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKEmojiiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1FAFED2035B31B002E4DB9 /* JKEmojiiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKEmojiiOS.h; sourceTree = "<group>"; };
+		3E1FAFEE2035B31B002E4DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E1FAFF32035B31C002E4DB9 /* JKEmojiiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKEmojiiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1FAFF82035B31C002E4DB9 /* JKEmojiiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKEmojiiOSTests.swift; sourceTree = "<group>"; };
+		3E1FAFFA2035B31C002E4DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E1FB0072035B32C002E4DB9 /* JKEmojiWatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKEmojiWatchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1FB0092035B32C002E4DB9 /* JKEmojiWatchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKEmojiWatchOS.h; sourceTree = "<group>"; };
+		3E1FB00A2035B32C002E4DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E1FB0142035B350002E4DB9 /* JKEmojiTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKEmojiTVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1FB0162035B350002E4DB9 /* JKEmojiTVOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKEmojiTVOS.h; sourceTree = "<group>"; };
+		3E1FB0172035B350002E4DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E1FB01C2035B350002E4DB9 /* JKEmojiTVOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKEmojiTVOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1FB0212035B350002E4DB9 /* JKEmojiTVOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKEmojiTVOSTests.swift; sourceTree = "<group>"; };
+		3E1FB0232035B350002E4DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E1FB0332035B382002E4DB9 /* JKEmojiOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKEmojiOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1FB0352035B382002E4DB9 /* JKEmojiOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKEmojiOSX.h; sourceTree = "<group>"; };
+		3E1FB0362035B382002E4DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E1FB03B2035B382002E4DB9 /* JKEmojiOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKEmojiOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1FB0402035B382002E4DB9 /* JKEmojiOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKEmojiOSXTests.swift; sourceTree = "<group>"; };
+		3E1FB0422035B382002E4DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ED865252034B097005B63ED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
 		3ED865262034B097005B63ED /* JKEmoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKEmoji.swift; path = Sources/JKEmoji.swift; sourceTree = SOURCE_ROOT; };
-		3ED8652D2034B0B6005B63ED /* JKEmojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKEmojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED8652F2034B0B6005B63ED /* JKEmojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKEmojiTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3ED865112034A944005B63ED /* Frameworks */ = {
+		3E1FAFE72035B31B002E4DB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3ED8652A2034B0B6005B63ED /* Frameworks */ = {
+		3E1FAFF02035B31C002E4DB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED865322034B0B6005B63ED /* JKEmoji.framework in Frameworks */,
+				3E1FAFF42035B31C002E4DB9 /* JKEmojiiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0032035B32C002E4DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0102035B350002E4DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0192035B350002E4DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1FB01D2035B350002E4DB9 /* JKEmojiTVOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB02F2035B382002E4DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0382035B382002E4DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1FB03C2035B382002E4DB9 /* JKEmojiOSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E1F4CD52035BB1F00E2D4BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E1F4CD92035BB1F00E2D4BA /* iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E1FAFEC2035B31B002E4DB9 /* JKEmojiiOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E1FAFED2035B31B002E4DB9 /* JKEmojiiOS.h */,
+				3E1FAFEE2035B31B002E4DB9 /* Info.plist */,
+			);
+			path = JKEmojiiOS;
+			sourceTree = "<group>";
+		};
+		3E1FAFF72035B31C002E4DB9 /* JKEmojiiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E1FAFF82035B31C002E4DB9 /* JKEmojiiOSTests.swift */,
+				3E1FAFFA2035B31C002E4DB9 /* Info.plist */,
+			);
+			path = JKEmojiiOSTests;
+			sourceTree = "<group>";
+		};
+		3E1FB0082035B32C002E4DB9 /* JKEmojiWatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E1FB0092035B32C002E4DB9 /* JKEmojiWatchOS.h */,
+				3E1FB00A2035B32C002E4DB9 /* Info.plist */,
+			);
+			path = JKEmojiWatchOS;
+			sourceTree = "<group>";
+		};
+		3E1FB0152035B350002E4DB9 /* JKEmojiTVOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E1FB0162035B350002E4DB9 /* JKEmojiTVOS.h */,
+				3E1FB0172035B350002E4DB9 /* Info.plist */,
+			);
+			path = JKEmojiTVOS;
+			sourceTree = "<group>";
+		};
+		3E1FB0202035B350002E4DB9 /* JKEmojiTVOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E1FB0212035B350002E4DB9 /* JKEmojiTVOSTests.swift */,
+				3E1FB0232035B350002E4DB9 /* Info.plist */,
+			);
+			path = JKEmojiTVOSTests;
+			sourceTree = "<group>";
+		};
+		3E1FB0342035B382002E4DB9 /* JKEmojiOSX */ = {
+			isa = PBXGroup;
+			children = (
+				3E1FB0352035B382002E4DB9 /* JKEmojiOSX.h */,
+				3E1FB0362035B382002E4DB9 /* Info.plist */,
+			);
+			path = JKEmojiOSX;
+			sourceTree = "<group>";
+		};
+		3E1FB03F2035B382002E4DB9 /* JKEmojiOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E1FB0402035B382002E4DB9 /* JKEmojiOSXTests.swift */,
+				3E1FB0422035B382002E4DB9 /* Info.plist */,
+			);
+			path = JKEmojiOSXTests;
+			sourceTree = "<group>";
+		};
+		3E1FB0512035B8DB002E4DB9 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				3E1F4CD42035BB1F00E2D4BA /* iOS Example.xcodeproj */,
+			);
+			name = Example;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		3ED8650B2034A944005B63ED = {
 			isa = PBXGroup;
 			children = (
 				3ED865242034B08B005B63ED /* Sources */,
 				3ED8652E2034B0B6005B63ED /* JKEmojiTests */,
+				3E1FAFEC2035B31B002E4DB9 /* JKEmojiiOS */,
+				3E1FAFF72035B31C002E4DB9 /* JKEmojiiOSTests */,
+				3E1FB0082035B32C002E4DB9 /* JKEmojiWatchOS */,
+				3E1FB0152035B350002E4DB9 /* JKEmojiTVOS */,
+				3E1FB0202035B350002E4DB9 /* JKEmojiTVOSTests */,
+				3E1FB0342035B382002E4DB9 /* JKEmojiOSX */,
+				3E1FB03F2035B382002E4DB9 /* JKEmojiOSXTests */,
+				3E1FB0512035B8DB002E4DB9 /* Example */,
 				3ED865162034A944005B63ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,8 +244,13 @@
 		3ED865162034A944005B63ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3ED865152034A944005B63ED /* JKEmoji.framework */,
-				3ED8652D2034B0B6005B63ED /* JKEmojiTests.xctest */,
+				3E1FAFEB2035B31B002E4DB9 /* JKEmojiiOS.framework */,
+				3E1FAFF32035B31C002E4DB9 /* JKEmojiiOSTests.xctest */,
+				3E1FB0072035B32C002E4DB9 /* JKEmojiWatchOS.framework */,
+				3E1FB0142035B350002E4DB9 /* JKEmojiTVOS.framework */,
+				3E1FB01C2035B350002E4DB9 /* JKEmojiTVOSTests.xctest */,
+				3E1FB0332035B382002E4DB9 /* JKEmojiOSX.framework */,
+				3E1FB03B2035B382002E4DB9 /* JKEmojiOSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,50 +276,165 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3ED865122034A944005B63ED /* Headers */ = {
+		3E1FAFE82035B31B002E4DB9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1FAFFB2035B31C002E4DB9 /* JKEmojiiOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0042035B32C002E4DB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1FB00B2035B32C002E4DB9 /* JKEmojiWatchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0112035B350002E4DB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1FB0242035B350002E4DB9 /* JKEmojiTVOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0302035B382002E4DB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1FB0432035B382002E4DB9 /* JKEmojiOSX.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3ED865142034A944005B63ED /* JKEmoji */ = {
+		3E1FAFEA2035B31B002E4DB9 /* JKEmojiiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ED8651D2034A944005B63ED /* Build configuration list for PBXNativeTarget "JKEmoji" */;
+			buildConfigurationList = 3E1FAFFC2035B31C002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiiOS" */;
 			buildPhases = (
-				3ED865102034A944005B63ED /* Sources */,
-				3ED865112034A944005B63ED /* Frameworks */,
-				3ED865122034A944005B63ED /* Headers */,
-				3ED865132034A944005B63ED /* Resources */,
+				3E1FAFE62035B31B002E4DB9 /* Sources */,
+				3E1FAFE72035B31B002E4DB9 /* Frameworks */,
+				3E1FAFE82035B31B002E4DB9 /* Headers */,
+				3E1FAFE92035B31B002E4DB9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = JKEmoji;
-			productName = JKEmoji;
-			productReference = 3ED865152034A944005B63ED /* JKEmoji.framework */;
+			name = JKEmojiiOS;
+			productName = JKEmojiiOS;
+			productReference = 3E1FAFEB2035B31B002E4DB9 /* JKEmojiiOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3ED8652C2034B0B6005B63ED /* JKEmojiTests */ = {
+		3E1FAFF22035B31C002E4DB9 /* JKEmojiiOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ED865352034B0B6005B63ED /* Build configuration list for PBXNativeTarget "JKEmojiTests" */;
+			buildConfigurationList = 3E1FAFFF2035B31C002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiiOSTests" */;
 			buildPhases = (
-				3ED865292034B0B6005B63ED /* Sources */,
-				3ED8652A2034B0B6005B63ED /* Frameworks */,
-				3ED8652B2034B0B6005B63ED /* Resources */,
+				3E1FAFEF2035B31C002E4DB9 /* Sources */,
+				3E1FAFF02035B31C002E4DB9 /* Frameworks */,
+				3E1FAFF12035B31C002E4DB9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3ED865342034B0B6005B63ED /* PBXTargetDependency */,
+				3E1FAFF62035B31C002E4DB9 /* PBXTargetDependency */,
 			);
-			name = JKEmojiTests;
-			productName = JKEmojiTests;
-			productReference = 3ED8652D2034B0B6005B63ED /* JKEmojiTests.xctest */;
+			name = JKEmojiiOSTests;
+			productName = JKEmojiiOSTests;
+			productReference = 3E1FAFF32035B31C002E4DB9 /* JKEmojiiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E1FB0062035B32C002E4DB9 /* JKEmojiWatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E1FB00C2035B32C002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiWatchOS" */;
+			buildPhases = (
+				3E1FB0022035B32C002E4DB9 /* Sources */,
+				3E1FB0032035B32C002E4DB9 /* Frameworks */,
+				3E1FB0042035B32C002E4DB9 /* Headers */,
+				3E1FB0052035B32C002E4DB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKEmojiWatchOS;
+			productName = JKEmojiWatchOS;
+			productReference = 3E1FB0072035B32C002E4DB9 /* JKEmojiWatchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E1FB0132035B350002E4DB9 /* JKEmojiTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E1FB0252035B350002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiTVOS" */;
+			buildPhases = (
+				3E1FB00F2035B350002E4DB9 /* Sources */,
+				3E1FB0102035B350002E4DB9 /* Frameworks */,
+				3E1FB0112035B350002E4DB9 /* Headers */,
+				3E1FB0122035B350002E4DB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKEmojiTVOS;
+			productName = JKEmojiTVOS;
+			productReference = 3E1FB0142035B350002E4DB9 /* JKEmojiTVOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E1FB01B2035B350002E4DB9 /* JKEmojiTVOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E1FB0282035B350002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiTVOSTests" */;
+			buildPhases = (
+				3E1FB0182035B350002E4DB9 /* Sources */,
+				3E1FB0192035B350002E4DB9 /* Frameworks */,
+				3E1FB01A2035B350002E4DB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E1FB01F2035B350002E4DB9 /* PBXTargetDependency */,
+			);
+			name = JKEmojiTVOSTests;
+			productName = JKEmojiTVOSTests;
+			productReference = 3E1FB01C2035B350002E4DB9 /* JKEmojiTVOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E1FB0322035B382002E4DB9 /* JKEmojiOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E1FB0442035B382002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiOSX" */;
+			buildPhases = (
+				3E1FB02E2035B382002E4DB9 /* Sources */,
+				3E1FB02F2035B382002E4DB9 /* Frameworks */,
+				3E1FB0302035B382002E4DB9 /* Headers */,
+				3E1FB0312035B382002E4DB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKEmojiOSX;
+			productName = JKEmojiOSX;
+			productReference = 3E1FB0332035B382002E4DB9 /* JKEmojiOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E1FB03A2035B382002E4DB9 /* JKEmojiOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E1FB0472035B382002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiOSXTests" */;
+			buildPhases = (
+				3E1FB0372035B382002E4DB9 /* Sources */,
+				3E1FB0382035B382002E4DB9 /* Frameworks */,
+				3E1FB0392035B382002E4DB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E1FB03E2035B382002E4DB9 /* PBXTargetDependency */,
+			);
+			name = JKEmojiOSXTests;
+			productName = JKEmojiOSXTests;
+			productReference = 3E1FB03B2035B382002E4DB9 /* JKEmojiOSXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -144,12 +447,31 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Joseph Kalash";
 				TargetAttributes = {
-					3ED865142034A944005B63ED = {
+					3E1FAFEA2035B31B002E4DB9 = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
-					3ED8652C2034B0B6005B63ED = {
+					3E1FAFF22035B31C002E4DB9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3E1FB0062035B32C002E4DB9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3E1FB0132035B350002E4DB9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3E1FB01B2035B350002E4DB9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3E1FB0322035B382002E4DB9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3E1FB03A2035B382002E4DB9 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -165,23 +487,79 @@
 			mainGroup = 3ED8650B2034A944005B63ED;
 			productRefGroup = 3ED865162034A944005B63ED /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3E1F4CD52035BB1F00E2D4BA /* Products */;
+					ProjectRef = 3E1F4CD42035BB1F00E2D4BA /* iOS Example.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				3ED865142034A944005B63ED /* JKEmoji */,
-				3ED8652C2034B0B6005B63ED /* JKEmojiTests */,
+				3E1FAFEA2035B31B002E4DB9 /* JKEmojiiOS */,
+				3E1FAFF22035B31C002E4DB9 /* JKEmojiiOSTests */,
+				3E1FB0062035B32C002E4DB9 /* JKEmojiWatchOS */,
+				3E1FB0132035B350002E4DB9 /* JKEmojiTVOS */,
+				3E1FB01B2035B350002E4DB9 /* JKEmojiTVOSTests */,
+				3E1FB0322035B382002E4DB9 /* JKEmojiOSX */,
+				3E1FB03A2035B382002E4DB9 /* JKEmojiOSXTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		3E1F4CD92035BB1F00E2D4BA /* iOS Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "iOS Example.app";
+			remoteRef = 3E1F4CD82035BB1F00E2D4BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
-		3ED865132034A944005B63ED /* Resources */ = {
+		3E1FAFE92035B31B002E4DB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3ED8652B2034B0B6005B63ED /* Resources */ = {
+		3E1FAFF12035B31C002E4DB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0052035B32C002E4DB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0122035B350002E4DB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB01A2035B350002E4DB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0312035B382002E4DB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0392035B382002E4DB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,33 +569,373 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3ED865102034A944005B63ED /* Sources */ = {
+		3E1FAFE62035B31B002E4DB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED865282034B097005B63ED /* JKEmoji.swift in Sources */,
+				3E1FB02B2035B356002E4DB9 /* JKEmoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3ED865292034B0B6005B63ED /* Sources */ = {
+		3E1FAFEF2035B31C002E4DB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED865302034B0B6005B63ED /* JKEmojiTests.swift in Sources */,
+				3E1FAFF92035B31C002E4DB9 /* JKEmojiiOSTests.swift in Sources */,
+				3E1FB0502035B52B002E4DB9 /* JKEmoji.swift in Sources */,
+				3E1FB04B2035B3B0002E4DB9 /* JKEmojiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0022035B32C002E4DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1FB02C2035B356002E4DB9 /* JKEmoji.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB00F2035B350002E4DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1FB02D2035B357002E4DB9 /* JKEmoji.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0182035B350002E4DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1FB0222035B350002E4DB9 /* JKEmojiTVOSTests.swift in Sources */,
+				3E1FB04F2035B52A002E4DB9 /* JKEmoji.swift in Sources */,
+				3E1FB04C2035B3B1002E4DB9 /* JKEmojiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB02E2035B382002E4DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1FB04A2035B387002E4DB9 /* JKEmoji.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1FB0372035B382002E4DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1FB0412035B382002E4DB9 /* JKEmojiOSXTests.swift in Sources */,
+				3E1FB04E2035B52A002E4DB9 /* JKEmoji.swift in Sources */,
+				3E1FB04D2035B3B2002E4DB9 /* JKEmojiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3ED865342034B0B6005B63ED /* PBXTargetDependency */ = {
+		3E1FAFF62035B31C002E4DB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3ED865142034A944005B63ED /* JKEmoji */;
-			targetProxy = 3ED865332034B0B6005B63ED /* PBXContainerItemProxy */;
+			target = 3E1FAFEA2035B31B002E4DB9 /* JKEmojiiOS */;
+			targetProxy = 3E1FAFF52035B31C002E4DB9 /* PBXContainerItemProxy */;
+		};
+		3E1FB01F2035B350002E4DB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E1FB0132035B350002E4DB9 /* JKEmojiTVOS */;
+			targetProxy = 3E1FB01E2035B350002E4DB9 /* PBXContainerItemProxy */;
+		};
+		3E1FB03E2035B382002E4DB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E1FB0322035B382002E4DB9 /* JKEmojiOSX */;
+			targetProxy = 3E1FB03D2035B382002E4DB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3E1FAFFD2035B31C002E4DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JKEmojiiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E1FAFFE2035B31C002E4DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JKEmojiiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E1FB0002035B31C002E4DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				INFOPLIST_FILE = JKEmojiiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E1FB0012035B31C002E4DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				INFOPLIST_FILE = JKEmojiiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E1FB00D2035B32C002E4DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JKEmojiWatchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiWatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		3E1FB00E2035B32C002E4DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JKEmojiWatchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiWatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		3E1FB0262035B350002E4DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JKEmojiTVOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		3E1FB0272035B350002E4DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JKEmojiTVOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		3E1FB0292035B350002E4DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				INFOPLIST_FILE = JKEmojiTVOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiTVOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		3E1FB02A2035B350002E4DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				INFOPLIST_FILE = JKEmojiTVOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiTVOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		3E1FB0452035B382002E4DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = JKEmojiOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiOSX;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		3E1FB0462035B382002E4DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = JKEmojiOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiOSX;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		3E1FB0482035B382002E4DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				INFOPLIST_FILE = JKEmojiOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		3E1FB0492035B382002E4DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 43S54AHEMG;
+				INFOPLIST_FILE = JKEmojiOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		3ED8651B2034A944005B63ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -331,107 +1049,77 @@
 			};
 			name = Release;
 		};
-		3ED8651E2034A944005B63ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 43S54AHEMG;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmoji;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3ED8651F2034A944005B63ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 43S54AHEMG;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmoji;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		3ED865362034B0B6005B63ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 43S54AHEMG;
-				INFOPLIST_FILE = Tests/JKEmojiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3ED865372034B0B6005B63ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 43S54AHEMG;
-				INFOPLIST_FILE = Tests/JKEmojiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3E1FAFFC2035B31C002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1FAFFD2035B31C002E4DB9 /* Debug */,
+				3E1FAFFE2035B31C002E4DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E1FAFFF2035B31C002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1FB0002035B31C002E4DB9 /* Debug */,
+				3E1FB0012035B31C002E4DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E1FB00C2035B32C002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1FB00D2035B32C002E4DB9 /* Debug */,
+				3E1FB00E2035B32C002E4DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E1FB0252035B350002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1FB0262035B350002E4DB9 /* Debug */,
+				3E1FB0272035B350002E4DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E1FB0282035B350002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiTVOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1FB0292035B350002E4DB9 /* Debug */,
+				3E1FB02A2035B350002E4DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E1FB0442035B382002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1FB0452035B382002E4DB9 /* Debug */,
+				3E1FB0462035B382002E4DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E1FB0472035B382002E4DB9 /* Build configuration list for PBXNativeTarget "JKEmojiOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1FB0482035B382002E4DB9 /* Debug */,
+				3E1FB0492035B382002E4DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3ED8650F2034A944005B63ED /* Build configuration list for PBXProject "JKEmoji" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3ED8651B2034A944005B63ED /* Debug */,
 				3ED8651C2034A944005B63ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3ED8651D2034A944005B63ED /* Build configuration list for PBXNativeTarget "JKEmoji" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3ED8651E2034A944005B63ED /* Debug */,
-				3ED8651F2034A944005B63ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3ED865352034B0B6005B63ED /* Build configuration list for PBXNativeTarget "JKEmojiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3ED865362034B0B6005B63ED /* Debug */,
-				3ED865372034B0B6005B63ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

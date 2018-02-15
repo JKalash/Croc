@@ -6,6 +6,11 @@
 //  Copyright © 2018 Joseph Kalash. All rights reserved.
 //
 
-extension String {
+public extension String {
+    
+    
+    public func funnyExtension() -> String {
+        return "JKEmoji"
+    }
     
 }

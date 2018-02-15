@@ -1,14 +1,15 @@
 //
-//  JKEmojiTests.swift
-//  JKEmojiTests
+//  JKEmojiTVOSTests.swift
+//  JKEmojiTVOSTests
 //
-//  Created by Joseph Kalash on 2/14/18.
+//  Created by Joseph Kalash on 2/15/18.
 //  Copyright © 2018 Joseph Kalash. All rights reserved.
 //
 
 import XCTest
+@testable import JKEmojiTVOS
 
-class JKEmojiTests: XCTestCase {
+class JKEmojiTVOSTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -23,8 +24,6 @@ class JKEmojiTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let string = "Hello, World!"
-        XCTAssertEqual(string.funnyExtension(), "JKEmoji")
     }
     
     func testPerformanceExample() {

@@ -1,6 +1,0 @@
-framework module JKEmoji {
-  umbrella header "JKEmoji-umbrella.h"
-
-  export *
-  module * { export * }
-}
