@@ -8,7 +8,6 @@
 
 public extension String {
     
-    
     public func funnyExtension() -> String {
         return "JKEmoji"
     }
