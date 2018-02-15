@@ -1,0 +1,22 @@
+{
+  "name": "JKEmoji",
+  "version": "0.1.0",
+  "summary": "Elegant Emoji Parsing in Swift",
+  "description": "A lightweight emoji string parsing library. Count the number of emojis in a string. Strip away emojis or non-emoji character. Fetch set of emojis from a string.",
+  "homepage": "https://github.com/JKalash/JKEmoji",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Joseph Kalash": "josephkalash@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/JKalash/JKEmoji.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Sources/JKEmoji.swift"
+}

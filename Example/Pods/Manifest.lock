@@ -1,0 +1,16 @@
+PODS:
+  - JKEmoji (0.1.0)
+
+DEPENDENCIES:
+  - JKEmoji (from `../`)
+
+EXTERNAL SOURCES:
+  JKEmoji:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JKEmoji: 24362fc5a7fb566a6a4311be4da0907704da520c
+
+PODFILE CHECKSUM: 6101b4d4fb91969de766546049bc3ecf85f58e14
+
+COCOAPODS: 1.4.0
