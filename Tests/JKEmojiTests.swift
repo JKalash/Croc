@@ -29,4 +29,8 @@ class JKEmojiTests: XCTestCase {
         XCTAssert("ok 😂 my 👻 c 😮hello ".emojis == ["😂", "👻", "😮"])
     }
     
+    func testEmojiDescription() {
+        XCTAssert("👻".emojiDescription! == "ghost")
+    }
+    
 }

@@ -45,4 +45,13 @@ internal class EmojiReference {
         return emojiHashcodes[hex_string] != nil
     }
     
+    func description(for emoji: Array<Unicode.Scalar>) -> String? {
+        for e in self.emojiList {
+            if e.codePoints == emoji {
+                return e.description
+            }
+        }
+        return nil
+    }
+    
 }
