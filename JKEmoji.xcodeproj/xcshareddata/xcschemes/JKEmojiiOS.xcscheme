@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3E1FAFEA2035B31B002E4DB9"
-               BuildableName = "JKEmojiiOS.framework"
+               BuildableName = "JKEmoji.framework"
                BlueprintName = "JKEmojiiOS"
                ReferencedContainer = "container:JKEmoji.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E1FAFEA2035B31B002E4DB9"
-            BuildableName = "JKEmojiiOS.framework"
+            BuildableName = "JKEmoji.framework"
             BlueprintName = "JKEmojiiOS"
             ReferencedContainer = "container:JKEmoji.xcodeproj">
          </BuildableReference>
@@ -68,7 +68,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E1FAFEA2035B31B002E4DB9"
-            BuildableName = "JKEmojiiOS.framework"
+            BuildableName = "JKEmoji.framework"
             BlueprintName = "JKEmojiiOS"
             ReferencedContainer = "container:JKEmoji.xcodeproj">
          </BuildableReference>
@@ -86,7 +86,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E1FAFEA2035B31B002E4DB9"
-            BuildableName = "JKEmojiiOS.framework"
+            BuildableName = "JKEmoji.framework"
             BlueprintName = "JKEmojiiOS"
             ReferencedContainer = "container:JKEmoji.xcodeproj">
          </BuildableReference>

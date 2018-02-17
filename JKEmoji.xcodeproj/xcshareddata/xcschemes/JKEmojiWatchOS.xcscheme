@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3E1FB0062035B32C002E4DB9"
-               BuildableName = "JKEmojiWatchOS.framework"
+               BuildableName = "JKEmoji.framework"
                BlueprintName = "JKEmojiWatchOS"
                ReferencedContainer = "container:JKEmoji.xcodeproj">
             </BuildableReference>
@@ -49,7 +49,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E1FB0062035B32C002E4DB9"
-            BuildableName = "JKEmojiWatchOS.framework"
+            BuildableName = "JKEmoji.framework"
             BlueprintName = "JKEmojiWatchOS"
             ReferencedContainer = "container:JKEmoji.xcodeproj">
          </BuildableReference>
@@ -67,7 +67,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E1FB0062035B32C002E4DB9"
-            BuildableName = "JKEmojiWatchOS.framework"
+            BuildableName = "JKEmoji.framework"
             BlueprintName = "JKEmojiWatchOS"
             ReferencedContainer = "container:JKEmoji.xcodeproj">
          </BuildableReference>

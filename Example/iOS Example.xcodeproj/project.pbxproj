@@ -9,15 +9,67 @@
 /* Begin PBXBuildFile section */
 		3E1FB05A2035B9ED002E4DB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FB0582035B9ED002E4DB9 /* AppDelegate.swift */; };
 		3E1FB05B2035B9ED002E4DB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FB0592035B9ED002E4DB9 /* ViewController.swift */; };
-		3ED83F4C2035CECA009CADD6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ED83F4B2035CECA009CADD6 /* Info.plist */; };
 		3ED83F502035CEF9009CADD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ED83F4F2035CEF9009CADD6 /* Assets.xcassets */; };
 		3ED83F522035CF05009CADD6 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3ED83F512035CF05009CADD6 /* Base.lproj */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EB0D6C22035D5C600D79887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB0D6B82035D5C600D79887 /* JKEmoji.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E1FAFEB2035B31B002E4DB9;
+			remoteInfo = JKEmojiiOS;
+		};
+		3EB0D6C42035D5C600D79887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB0D6B82035D5C600D79887 /* JKEmoji.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E1FAFF32035B31C002E4DB9;
+			remoteInfo = JKEmojiiOSTests;
+		};
+		3EB0D6C62035D5C600D79887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB0D6B82035D5C600D79887 /* JKEmoji.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E1FB0072035B32C002E4DB9;
+			remoteInfo = JKEmojiWatchOS;
+		};
+		3EB0D6C82035D5C600D79887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB0D6B82035D5C600D79887 /* JKEmoji.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E1FB0142035B350002E4DB9;
+			remoteInfo = JKEmojiTVOS;
+		};
+		3EB0D6CA2035D5C600D79887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB0D6B82035D5C600D79887 /* JKEmoji.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E1FB01C2035B350002E4DB9;
+			remoteInfo = JKEmojiTVOSTests;
+		};
+		3EB0D6CC2035D5C600D79887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB0D6B82035D5C600D79887 /* JKEmoji.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E1FB0332035B382002E4DB9;
+			remoteInfo = JKEmojiOSX;
+		};
+		3EB0D6CE2035D5C600D79887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB0D6B82035D5C600D79887 /* JKEmoji.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E1FB03B2035B382002E4DB9;
+			remoteInfo = JKEmojiOSXTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3E1FAFC92035A3F3002E4DB9 /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1FB0582035B9ED002E4DB9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Source/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		3E1FB0592035B9ED002E4DB9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Source/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		3EB0D6B82035D5C600D79887 /* JKEmoji.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JKEmoji.xcodeproj; path = ../JKEmoji.xcodeproj; sourceTree = "<group>"; };
 		3ED83F4B2035CECA009CADD6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
 		3ED83F4F2035CEF9009CADD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		3ED83F512035CF05009CADD6 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = Resources/Base.lproj; sourceTree = SOURCE_ROOT; };
@@ -37,6 +89,7 @@
 		3E1FAFC02035A3F3002E4DB9 = {
 			isa = PBXGroup;
 			children = (
+				3EB0D6B82035D5C600D79887 /* JKEmoji.xcodeproj */,
 				3E1FAFCB2035A3F3002E4DB9 /* Source */,
 				3E1FAFCA2035A3F3002E4DB9 /* Products */,
 			);
@@ -60,6 +113,20 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		3EB0D6B92035D5C600D79887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EB0D6C32035D5C600D79887 /* JKEmoji.framework */,
+				3EB0D6C52035D5C600D79887 /* JKEmojiiOSTests.xctest */,
+				3EB0D6C72035D5C600D79887 /* JKEmoji.framework */,
+				3EB0D6C92035D5C600D79887 /* JKEmoji.framework */,
+				3EB0D6CB2035D5C600D79887 /* JKEmojiTVOSTests.xctest */,
+				3EB0D6CD2035D5C600D79887 /* JKEmoji.framework */,
+				3EB0D6CF2035D5C600D79887 /* JKEmojiOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3ED83F4A2035CE4B009CADD6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,7 +134,8 @@
 				3ED83F4F2035CEF9009CADD6 /* Assets.xcassets */,
 				3ED83F4B2035CECA009CADD6 /* Info.plist */,
 			);
-			path = "Supporting Files";
+			name = "Supporting Files";
+			path = ../Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,12 +185,70 @@
 			mainGroup = 3E1FAFC02035A3F3002E4DB9;
 			productRefGroup = 3E1FAFCA2035A3F3002E4DB9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3EB0D6B92035D5C600D79887 /* Products */;
+					ProjectRef = 3EB0D6B82035D5C600D79887 /* JKEmoji.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3E1FAFC82035A3F3002E4DB9 /* iOS Example */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3EB0D6C32035D5C600D79887 /* JKEmoji.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JKEmoji.framework;
+			remoteRef = 3EB0D6C22035D5C600D79887 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3EB0D6C52035D5C600D79887 /* JKEmojiiOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JKEmojiiOSTests.xctest;
+			remoteRef = 3EB0D6C42035D5C600D79887 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3EB0D6C72035D5C600D79887 /* JKEmoji.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JKEmoji.framework;
+			remoteRef = 3EB0D6C62035D5C600D79887 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3EB0D6C92035D5C600D79887 /* JKEmoji.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JKEmoji.framework;
+			remoteRef = 3EB0D6C82035D5C600D79887 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3EB0D6CB2035D5C600D79887 /* JKEmojiTVOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JKEmojiTVOSTests.xctest;
+			remoteRef = 3EB0D6CA2035D5C600D79887 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3EB0D6CD2035D5C600D79887 /* JKEmoji.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JKEmoji.framework;
+			remoteRef = 3EB0D6CC2035D5C600D79887 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3EB0D6CF2035D5C600D79887 /* JKEmojiOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JKEmojiOSXTests.xctest;
+			remoteRef = 3EB0D6CE2035D5C600D79887 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3E1FAFC72035A3F3002E4DB9 /* Resources */ = {
@@ -131,7 +257,6 @@
 			files = (
 				3ED83F502035CEF9009CADD6 /* Assets.xcassets in Resources */,
 				3ED83F522035CF05009CADD6 /* Base.lproj in Resources */,
-				3ED83F4C2035CECA009CADD6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

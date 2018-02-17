@@ -14,6 +14,18 @@
 		3E1FB02D2035B357002E4DB9 /* JKEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED865262034B097005B63ED /* JKEmoji.swift */; };
 		3E1FB03C2035B382002E4DB9 /* JKEmoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1FB0332035B382002E4DB9 /* JKEmoji.framework */; };
 		3E1FB04A2035B387002E4DB9 /* JKEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED865262034B097005B63ED /* JKEmoji.swift */; };
+		3E3FBD062038775400A5AD4A /* EmojiReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD052038775400A5AD4A /* EmojiReference.swift */; };
+		3E3FBD072038775400A5AD4A /* EmojiReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD052038775400A5AD4A /* EmojiReference.swift */; };
+		3E3FBD082038775400A5AD4A /* EmojiReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD052038775400A5AD4A /* EmojiReference.swift */; };
+		3E3FBD092038775400A5AD4A /* EmojiReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD052038775400A5AD4A /* EmojiReference.swift */; };
+		3E3FBD0B2038776700A5AD4A /* emojis.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E3FBD0A2038776700A5AD4A /* emojis.json */; };
+		3E3FBD0C2038776700A5AD4A /* emojis.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E3FBD0A2038776700A5AD4A /* emojis.json */; };
+		3E3FBD0D2038776700A5AD4A /* emojis.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E3FBD0A2038776700A5AD4A /* emojis.json */; };
+		3E3FBD0E2038776700A5AD4A /* emojis.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E3FBD0A2038776700A5AD4A /* emojis.json */; };
+		3E3FBD10203878DA00A5AD4A /* EmojiTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD0F203878DA00A5AD4A /* EmojiTypes.swift */; };
+		3E3FBD11203878DA00A5AD4A /* EmojiTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD0F203878DA00A5AD4A /* EmojiTypes.swift */; };
+		3E3FBD12203878DA00A5AD4A /* EmojiTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD0F203878DA00A5AD4A /* EmojiTypes.swift */; };
+		3E3FBD13203878DA00A5AD4A /* EmojiTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD0F203878DA00A5AD4A /* EmojiTypes.swift */; };
 		3EB91A082035CBD200C59FA9 /* JKEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB91A072035CBD200C59FA9 /* JKEmoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EB91A092035CBD200C59FA9 /* JKEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB91A072035CBD200C59FA9 /* JKEmoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EB91A0A2035CBD200C59FA9 /* JKEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB91A072035CBD200C59FA9 /* JKEmoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,6 +67,9 @@
 		3E1FB01C2035B350002E4DB9 /* JKEmojiTVOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKEmojiTVOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1FB0332035B382002E4DB9 /* JKEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1FB03B2035B382002E4DB9 /* JKEmojiOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKEmojiOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3FBD052038775400A5AD4A /* EmojiReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiReference.swift; sourceTree = "<group>"; };
+		3E3FBD0A2038776700A5AD4A /* emojis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = emojis.json; path = py/emojis.json; sourceTree = SOURCE_ROOT; };
+		3E3FBD0F203878DA00A5AD4A /* EmojiTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTypes.swift; sourceTree = "<group>"; };
 		3EB91A072035CBD200C59FA9 /* JKEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKEmoji.h; path = Sources/JKEmoji.h; sourceTree = SOURCE_ROOT; };
 		3EB91A0C2035CCE500C59FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
 		3ED83F532035CF3C009CADD6 /* JKEmojiTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKEmojiTests.swift; path = Tests/JKEmojiTests.swift; sourceTree = SOURCE_ROOT; };
@@ -118,14 +133,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3EB91A062035CBBE00C59FA9 /* Supporting Filed */ = {
+		3EB91A062035CBBE00C59FA9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3E3FBD0A2038776700A5AD4A /* emojis.json */,
 				3EB91A072035CBD200C59FA9 /* JKEmoji.h */,
 				3EB91A0C2035CCE500C59FA9 /* Info.plist */,
 			);
-			path = "Supporting Filed";
-			sourceTree = "<group>";
+			name = "Supporting Files";
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
 		};
 		3ED8650B2034A944005B63ED = {
 			isa = PBXGroup;
@@ -154,10 +171,11 @@
 			isa = PBXGroup;
 			children = (
 				3ED865262034B097005B63ED /* JKEmoji.swift */,
-				3EB91A062035CBBE00C59FA9 /* Supporting Filed */,
+				3E3FBD052038775400A5AD4A /* EmojiReference.swift */,
+				3E3FBD0F203878DA00A5AD4A /* EmojiTypes.swift */,
+				3EB91A062035CBBE00C59FA9 /* Supporting Files */,
 			);
-			name = Sources;
-			path = "New Group";
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		3ED8652E2034B0B6005B63ED /* Tests */ = {
@@ -166,8 +184,7 @@
 				3ED83F572035CFF4009CADD6 /* Info.plist */,
 				3ED83F532035CF3C009CADD6 /* JKEmojiTests.swift */,
 			);
-			name = Tests;
-			path = JKEmojiTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,6 +419,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3FBD0B2038776700A5AD4A /* emojis.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +434,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3FBD0C2038776700A5AD4A /* emojis.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +442,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3FBD0D2038776700A5AD4A /* emojis.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +457,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3FBD0E2038776700A5AD4A /* emojis.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +475,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3FBD10203878DA00A5AD4A /* EmojiTypes.swift in Sources */,
+				3E3FBD062038775400A5AD4A /* EmojiReference.swift in Sources */,
 				3E1FB02B2035B356002E4DB9 /* JKEmoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +493,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3FBD11203878DA00A5AD4A /* EmojiTypes.swift in Sources */,
+				3E3FBD072038775400A5AD4A /* EmojiReference.swift in Sources */,
 				3E1FB02C2035B356002E4DB9 /* JKEmoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +503,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3FBD12203878DA00A5AD4A /* EmojiTypes.swift in Sources */,
+				3E3FBD082038775400A5AD4A /* EmojiReference.swift in Sources */,
 				3E1FB02D2035B357002E4DB9 /* JKEmoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +521,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3FBD13203878DA00A5AD4A /* EmojiTypes.swift in Sources */,
+				3E3FBD092038775400A5AD4A /* EmojiReference.swift in Sources */,
 				3E1FB04A2035B387002E4DB9 /* JKEmoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,7 +570,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmoji;
 				PRODUCT_NAME = JKEmoji;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -563,7 +592,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmoji;
 				PRODUCT_NAME = JKEmoji;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -615,7 +644,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiWatchOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmoji;
 				PRODUCT_NAME = JKEmoji;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -639,7 +668,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiWatchOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmoji;
 				PRODUCT_NAME = JKEmoji;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -662,7 +691,7 @@
 				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiTVOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmoji;
 				PRODUCT_NAME = JKEmoji;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -685,7 +714,7 @@
 				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiTVOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmoji;
 				PRODUCT_NAME = JKEmoji;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -745,7 +774,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiOSX;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmoji;
 				PRODUCT_NAME = JKEmoji;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -770,7 +799,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmojiOSX;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.JKEmoji;
 				PRODUCT_NAME = JKEmoji;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3E1FB0132035B350002E4DB9"
-               BuildableName = "JKEmojiTVOS.framework"
+               BuildableName = "JKEmoji.framework"
                BlueprintName = "JKEmojiTVOS"
                ReferencedContainer = "container:JKEmoji.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E1FB0132035B350002E4DB9"
-            BuildableName = "JKEmojiTVOS.framework"
+            BuildableName = "JKEmoji.framework"
             BlueprintName = "JKEmojiTVOS"
             ReferencedContainer = "container:JKEmoji.xcodeproj">
          </BuildableReference>
@@ -68,7 +68,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E1FB0132035B350002E4DB9"
-            BuildableName = "JKEmojiTVOS.framework"
+            BuildableName = "JKEmoji.framework"
             BlueprintName = "JKEmojiTVOS"
             ReferencedContainer = "container:JKEmoji.xcodeproj">
          </BuildableReference>
@@ -86,7 +86,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E1FB0132035B350002E4DB9"
-            BuildableName = "JKEmojiTVOS.framework"
+            BuildableName = "JKEmoji.framework"
             BlueprintName = "JKEmojiTVOS"
             ReferencedContainer = "container:JKEmoji.xcodeproj">
          </BuildableReference>
