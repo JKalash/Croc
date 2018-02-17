@@ -24,7 +24,7 @@ internal class EmojiReference {
                                 if let codepoints_strings  = emoji["codepoints"] as? Array<String>, let description = emoji["description"] as? String {
                                     //Convert codepoints into UInt32
                                     let codepoints = codepoints_strings.flatMap({ return Unicode.Scalar(UInt32($0, radix: 16)!) })
-                                    emojiList.append(Emoji(group: EmojiGroupType(rawValue: group) ?? .objects,
+                                    emojiList.append(Emoji(group: EmojiGroup(rawValue: group) ?? .objects,
                                                            subgroup: subgroup,
                                                            codePoints: codepoints,
                                                            description: description))
@@ -52,6 +52,17 @@ internal class EmojiReference {
             }
         }
         return nil
+    }
+    
+    func subGroups(for group: EmojiGroup) -> [EmojiSubGroup] {
+        var subgroups : Set<EmojiSubGroup> = []
+        for emoji in self.emojiList {
+            if emoji.group == group {
+                subgroups.insert(emoji.subgroup)
+            }
+        }
+        
+        return Array(subgroups)
     }
     
 }

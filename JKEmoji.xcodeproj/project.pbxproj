@@ -26,6 +26,10 @@
 		3E3FBD11203878DA00A5AD4A /* EmojiTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD0F203878DA00A5AD4A /* EmojiTypes.swift */; };
 		3E3FBD12203878DA00A5AD4A /* EmojiTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD0F203878DA00A5AD4A /* EmojiTypes.swift */; };
 		3E3FBD13203878DA00A5AD4A /* EmojiTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD0F203878DA00A5AD4A /* EmojiTypes.swift */; };
+		3E3FBD18203898B800A5AD4A /* EmojiLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD17203898B800A5AD4A /* EmojiLookup.swift */; };
+		3E3FBD19203898BE00A5AD4A /* EmojiLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD17203898B800A5AD4A /* EmojiLookup.swift */; };
+		3E3FBD1A203898BE00A5AD4A /* EmojiLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD17203898B800A5AD4A /* EmojiLookup.swift */; };
+		3E3FBD1B203898BE00A5AD4A /* EmojiLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FBD17203898B800A5AD4A /* EmojiLookup.swift */; };
 		3EB91A082035CBD200C59FA9 /* JKEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB91A072035CBD200C59FA9 /* JKEmoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EB91A092035CBD200C59FA9 /* JKEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB91A072035CBD200C59FA9 /* JKEmoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EB91A0A2035CBD200C59FA9 /* JKEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB91A072035CBD200C59FA9 /* JKEmoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -70,6 +74,7 @@
 		3E3FBD052038775400A5AD4A /* EmojiReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiReference.swift; sourceTree = "<group>"; };
 		3E3FBD0A2038776700A5AD4A /* emojis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = emojis.json; path = py/emojis.json; sourceTree = SOURCE_ROOT; };
 		3E3FBD0F203878DA00A5AD4A /* EmojiTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTypes.swift; sourceTree = "<group>"; };
+		3E3FBD17203898B800A5AD4A /* EmojiLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLookup.swift; sourceTree = "<group>"; };
 		3EB91A072035CBD200C59FA9 /* JKEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKEmoji.h; path = Sources/JKEmoji.h; sourceTree = SOURCE_ROOT; };
 		3EB91A0C2035CCE500C59FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
 		3ED83F532035CF3C009CADD6 /* JKEmojiTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKEmojiTests.swift; path = Tests/JKEmojiTests.swift; sourceTree = SOURCE_ROOT; };
@@ -173,6 +178,7 @@
 				3ED865262034B097005B63ED /* JKEmoji.swift */,
 				3E3FBD052038775400A5AD4A /* EmojiReference.swift */,
 				3E3FBD0F203878DA00A5AD4A /* EmojiTypes.swift */,
+				3E3FBD17203898B800A5AD4A /* EmojiLookup.swift */,
 				3EB91A062035CBBE00C59FA9 /* Supporting Files */,
 			);
 			path = Sources;
@@ -477,6 +483,7 @@
 			files = (
 				3E3FBD10203878DA00A5AD4A /* EmojiTypes.swift in Sources */,
 				3E3FBD062038775400A5AD4A /* EmojiReference.swift in Sources */,
+				3E3FBD18203898B800A5AD4A /* EmojiLookup.swift in Sources */,
 				3E1FB02B2035B356002E4DB9 /* JKEmoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +502,7 @@
 			files = (
 				3E3FBD11203878DA00A5AD4A /* EmojiTypes.swift in Sources */,
 				3E3FBD072038775400A5AD4A /* EmojiReference.swift in Sources */,
+				3E3FBD19203898BE00A5AD4A /* EmojiLookup.swift in Sources */,
 				3E1FB02C2035B356002E4DB9 /* JKEmoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 			files = (
 				3E3FBD12203878DA00A5AD4A /* EmojiTypes.swift in Sources */,
 				3E3FBD082038775400A5AD4A /* EmojiReference.swift in Sources */,
+				3E3FBD1A203898BE00A5AD4A /* EmojiLookup.swift in Sources */,
 				3E1FB02D2035B357002E4DB9 /* JKEmoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +532,7 @@
 			files = (
 				3E3FBD13203878DA00A5AD4A /* EmojiTypes.swift in Sources */,
 				3E3FBD092038775400A5AD4A /* EmojiReference.swift in Sources */,
+				3E3FBD1B203898BE00A5AD4A /* EmojiLookup.swift in Sources */,
 				3E1FB04A2035B387002E4DB9 /* JKEmoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

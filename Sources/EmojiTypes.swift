@@ -6,7 +6,7 @@
 //  Copyright © 2018 Joseph Kalash. All rights reserved.
 //
 
-public enum EmojiGroupType : String {
+public enum EmojiGroup : String {
     case smileysPeople = "Smileys & People"
     case animalsNature = "Animals & Nature"
     case foodDrink = "Food & Drink"
@@ -17,9 +17,11 @@ public enum EmojiGroupType : String {
     case flags = "Flags"
 }
 
+public typealias EmojiSubGroup = String
+
 public struct Emoji : Equatable {
-    var group : EmojiGroupType
-    var subgroup : String
+    var group : EmojiGroup
+    var subgroup : EmojiSubGroup
     var codePoints : Array<Unicode.Scalar>
     var description : String
     
