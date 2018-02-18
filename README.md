@@ -7,7 +7,8 @@ Elegant Emoji parsing in Swift
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/JKEmoji.svg?style=flat)](https://img.shields.io/cocoapods/p/JKEmoji.svg?style=flat)
 [![License](https://img.shields.io/cocoapods/l/JKEmoji.svg?style=flat)](http://cocoapods.org/pods/JKEmoji)
-[![Swift-4.0](http://img.shields.io/badge/Swift-4.0-blue.svg)]()
+[![Swift-4.0+](http://img.shields.io/badge/Swift-4.0%2B-orange.svg)]()
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MHHC3G7U6UHE2)
 
 ## Installation
 
@@ -21,7 +22,7 @@ $ gem install cocoapods
 
 > CocoaPods 1.1+ is required to build JKEmoji
 
-To integrate Alamofire into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate JKEmoji into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
@@ -50,19 +51,19 @@ $ brew update
 $ brew install carthage
 ```
 
-To integrate Alamofire into your Xcode project using Carthage, specify it in your `Cartfile`:
+To integrate JKEmoji into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
 github "JKalash/JKEmoji"
 ```
 
-Run `carthage update` to build the framework and drag the built `Alamofire.framework` into your Xcode project.
+Run `carthage update` to build the framework and drag the built `JKEmoji.framework` into your Xcode project.
 
 ### Swift Package Manager
 
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. It is in early development, but Alamofire does support its use on supported platforms. 
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. It is in early development, but JKEmoji does support its use on supported platforms. 
 
-Once you have your Swift package set up, adding Alamofire as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
+Once you have your Swift package set up, adding JKEmoji as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
 
 #### Swift 3
 
@@ -82,7 +83,7 @@ dependencies: [
 
 ### Manually
 
-If you prefer not to use any of the aforementioned dependency managers, you can integrate Alamofire into your project manually.
+If you prefer not to use any of the aforementioned dependency managers, you can integrate JKEmoji into your project manually.
 
 #### Embedded Framework
 
@@ -92,7 +93,7 @@ If you prefer not to use any of the aforementioned dependency managers, you can 
   $ git init
   ```
 
-- Add Alamofire as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
+- Add JKEmoji as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
 
   ```bash
   $ git submodule add https://github.com/JKalash/JKEmoji.git
