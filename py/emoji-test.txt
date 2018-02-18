@@ -2648,7 +2648,7 @@ Subgroup: hotel
 1F6CE                                      _DISCARD_ # 🛎 bellhop bell
 1F9F3                                      🧳 luggage
 Subgroup: time
-231B                                       ⌛ hourglass done
+231B FE0F                                  ⌛ hourglass done
 23F3                                       ⏳ hourglass not done
 231A                                       ⌚ watch
 23F0                                       ⏰ alarm clock
