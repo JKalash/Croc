@@ -1,6 +1,6 @@
 //
-//  JKEmoji.swift
-//  JKEmoji
+//  Croc.swift
+//  Croc
 //
 //  Created by Joseph Kalash on 2/14/18.
 //  Copyright © 2018 Joseph Kalash. All rights reserved.
@@ -87,7 +87,7 @@ extension String {
 }
 
 
-public class JKEmoji {
+public class Croc {
     
     public static var groupTypes : [EmojiGroup] {
         get {

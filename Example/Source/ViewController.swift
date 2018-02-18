@@ -1,13 +1,13 @@
 //
 //  ViewController.swift
-//  JKEmojiExample
+//  iOS Example
 //
 //  Created by Joseph Kalash on 2/15/18.
 //  Copyright © 2018 Joseph Kalash. All rights reserved.
 //
 
 import UIKit
-import JKEmoji
+import Croc
 
 class ViewController: UIViewController {
 

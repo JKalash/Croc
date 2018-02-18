@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  JKEmojiExample
+//  iOS Example
 //
 //  Created by Joseph Kalash on 2/15/18.
 //  Copyright © 2018 Joseph Kalash. All rights reserved.

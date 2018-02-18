@@ -1,13 +1,13 @@
 //
 //  CharExtensionTests.swift
-//  JKEmoji
+//  CrocTests
 //
 //  Created by Joseph Kalash on 2/18/18.
 //  Copyright © 2018 Joseph Kalash. All rights reserved.
 //
 
 import XCTest
-import JKEmoji
+import Croc
 
 class CharExtensionTests: XCTestCase {
 

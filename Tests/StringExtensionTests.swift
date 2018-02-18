@@ -1,13 +1,13 @@
 //
-//  JKEmojiTests.swift
-//  JKEmojiTests
+//  StringExtensionTests.swift
+//  CrocTests
 //
 //  Created by Joseph Kalash on 2/14/18.
 //  Copyright © 2018 Joseph Kalash. All rights reserved.
 //
 
 import XCTest
-import JKEmoji
+import Croc
 
 class StringExtensionTests: XCTestCase {
     
@@ -55,9 +55,9 @@ class StringExtensionTests: XCTestCase {
         //Request emojis for a group
         //Construct a string from a group
         //Make sure matching emoji count
-        let groups = JKEmoji.groupTypes
+        let groups = Croc.groupTypes
         for group in groups {
-            let emojis = JKEmoji.emojis(for: group)
+            let emojis = Croc.emojis(for: group)
             let concat = String(emojis)
             print(concat)
             XCTAssert(concat.emojiCount == emojis.count)

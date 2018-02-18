@@ -1,6 +1,6 @@
 //
 //  EmojiTypes.swift
-//  JKEmoji
+//  Croc
 //
 //  Created by Joseph Kalash on 2/17/18.
 //  Copyright © 2018 Joseph Kalash. All rights reserved.

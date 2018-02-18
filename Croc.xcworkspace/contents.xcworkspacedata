@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:JKEmoji.xcodeproj">
+      location = "group:/Users/JosephKalash/Documents/Github/Croc/Croc.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Example/iOS Example.xcodeproj">

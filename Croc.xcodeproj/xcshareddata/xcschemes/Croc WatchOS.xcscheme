@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3E1FB0132035B350002E4DB9"
-               BuildableName = "JKEmoji.framework"
-               BlueprintName = "JKEmojiTVOS"
-               ReferencedContainer = "container:JKEmoji.xcodeproj">
+               BlueprintIdentifier = "3E1FB0062035B32C002E4DB9"
+               BuildableName = "Croc.framework"
+               BlueprintName = "CrocWatchOS"
+               ReferencedContainer = "container:Croc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -30,26 +30,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3E1FB01B2035B350002E4DB9"
-               BuildableName = "JKEmojiTVOSTests.xctest"
-               BlueprintName = "JKEmojiTVOSTests"
-               ReferencedContainer = "container:JKEmoji.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3E1FB0132035B350002E4DB9"
-            BuildableName = "JKEmoji.framework"
-            BlueprintName = "JKEmojiTVOS"
-            ReferencedContainer = "container:JKEmoji.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -67,10 +48,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3E1FB0132035B350002E4DB9"
-            BuildableName = "JKEmoji.framework"
-            BlueprintName = "JKEmojiTVOS"
-            ReferencedContainer = "container:JKEmoji.xcodeproj">
+            BlueprintIdentifier = "3E1FB0062035B32C002E4DB9"
+            BuildableName = "Croc.framework"
+            BlueprintName = "CrocWatchOS"
+            ReferencedContainer = "container:Croc.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -85,10 +66,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3E1FB0132035B350002E4DB9"
-            BuildableName = "JKEmoji.framework"
-            BlueprintName = "JKEmojiTVOS"
-            ReferencedContainer = "container:JKEmoji.xcodeproj">
+            BlueprintIdentifier = "3E1FB0062035B32C002E4DB9"
+            BuildableName = "Croc.framework"
+            BlueprintName = "CrocWatchOS"
+            ReferencedContainer = "container:Croc.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
