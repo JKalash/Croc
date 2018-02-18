@@ -1,4 +1,4 @@
-<img src="https://cdn.rawgit.com/jkalash/croc/d4a3700/Resources/Croc.svg" width="370"/>
+<img src="https://cdn.rawgit.com/jkalash/croc/4dd2f48/Resources/Croc.svg" width="370"/>
 
 **Croc** is a library for parsing emojis on iOS. It provides a simple and lightweight interface for detecting, generating, categorizing and managing emoji characters, making emoji-powered features an easy task for developers. 
 
