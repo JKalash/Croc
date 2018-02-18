@@ -2,12 +2,12 @@
 
 **Croc** is a library for parsing emojis on iOS. It provides a simple and lightweight interface for detecting, generating, categorizing and managing emoji characters, making emoji-powered features an easy task for developers. 
 
-[![Build Status](https://travis-ci.org/JKalash/JKEmoji.svg?branch=master)](https://travis-ci.org/JKalash/JKEmoji)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/JKEmoji.svg)](https://img.shields.io/cocoapods/v/JKEmoji.svg)
-[![CocoaPods](https://img.shields.io/cocoapods/dt/JKEmoji.svg)](https://img.shields.io/cocoapods/dt/JKEmoji.svg)
+[![Build Status](https://travis-ci.org/JKalash/Croc.svg?branch=master)](https://travis-ci.org/JKalash/Croc)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Croc.svg)](https://img.shields.io/cocoapods/v/Croc.svg)
+[![CocoaPods](https://img.shields.io/cocoapods/dt/Croc.svg)](https://img.shields.io/cocoapods/dt/Croc.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Platform](https://img.shields.io/cocoapods/p/JKEmoji.svg?style=flat)](https://img.shields.io/cocoapods/p/JKEmoji.svg?style=flat)
-[![License](https://img.shields.io/cocoapods/l/JKEmoji.svg?style=flat)](http://cocoapods.org/pods/JKEmoji)
+[![Platform](https://img.shields.io/cocoapods/p/Croc.svg?style=flat)](https://img.shields.io/cocoapods/p/Croc.svg?style=flat)
+[![License](https://img.shields.io/cocoapods/l/Croc.svg?style=flat)](http://cocoapods.org/pods/Croc)
 [![Swift-4.0+](http://img.shields.io/badge/Swift-4.0%2B-orange.svg)]()
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MHHC3G7U6UHE2)
 
@@ -21,9 +21,9 @@
 $ gem install cocoapods
 ```
 
-> CocoaPods 1.1+ is required to build JKEmoji
+> CocoaPods 1.1+ is required to build Croc
 
-To integrate JKEmoji into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate Croc into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
@@ -31,7 +31,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'JKEmoji'
+    pod 'Croc'
 end
 ```
 
@@ -52,25 +52,25 @@ $ brew update
 $ brew install carthage
 ```
 
-To integrate JKEmoji into your Xcode project using Carthage, specify it in your `Cartfile`:
+To integrate Croc into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "JKalash/JKEmoji"
+github "JKalash/Croc"
 ```
 
-Run `carthage update` to build the framework and drag the built `JKEmoji.framework` into your Xcode project.
+Run `carthage update` to build the framework and drag the built `Croc.framework` into your Xcode project.
 
 ### Swift Package Manager
 
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. It is in early development, but JKEmoji does support its use on supported platforms. 
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. It is in early development, but Croc does support its use on supported platforms. 
 
-Once you have your Swift package set up, adding JKEmoji as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
+Once you have your Swift package set up, adding Croc as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
 
 #### Swift 3
 
 ```swift
 dependencies: [
-    .Package(url: "https://github.com/JKalash/JKEmoji.git", majorVersion: 0)
+    .Package(url: "https://github.com/JKalash/Croc.git", majorVersion: 0)
 ]
 ```
 
@@ -78,13 +78,13 @@ dependencies: [
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/JKalash/JKEmoji.git", from: "0.0.0")
+    .package(url: "https://github.com/JKalash/Croc.git", from: "0.0.0")
 ]
 ```
 
 ### Manually
 
-If you prefer not to use any of the aforementioned dependency managers, you can integrate JKEmoji into your project manually.
+If you prefer not to use any of the aforementioned dependency managers, you can integrate Croc into your project manually.
 
 #### Embedded Framework
 
@@ -94,31 +94,31 @@ If you prefer not to use any of the aforementioned dependency managers, you can 
   $ git init
   ```
 
-- Add JKEmoji as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
+- Add Croc as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
 
   ```bash
-  $ git submodule add https://github.com/JKalash/JKEmoji.git
+  $ git submodule add https://github.com/JKalash/Croc.git
   ```
 
-- Open the new `JKEmoji` folder, and drag the `JKEmoji.xcodeproj` into the Project Navigator of your application's Xcode project.
+- Open the new `Croc` folder, and drag the `Croc.xcodeproj` into the Project Navigator of your application's Xcode project.
 
     > It should appear nested underneath your application's blue project icon. Whether it is above or below all the other Xcode groups does not matter.
 
-- Select the `JKEmoji.xcodeproj` in the Project Navigator and verify the deployment target matches that of your application target.
+- Select the `Croc.xcodeproj` in the Project Navigator and verify the deployment target matches that of your application target.
 - Next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
 - In the tab bar at the top of that window, open the "General" panel.
 - Click on the `+` button under the "Embedded Binaries" section.
-- You will see two different `JKEmoji.xcodeproj` folders each with two different versions of the `JKEmoji.framework` nested inside a `Products` folder.
+- You will see two different `Croc.xcodeproj` folders each with two different versions of the `Croc.framework` nested inside a `Products` folder.
 
-    > It does not matter which `Products` folder you choose from, but it does matter whether you choose the top or bottom `JKEmoji.framework`.
+    > It does not matter which `Products` folder you choose from, but it does matter whether you choose the top or bottom `Croc.framework`.
 
-- Select the top `JKEmoji.framework` for iOS and the bottom one for OS X.
+- Select the top `Croc.framework` for iOS and the bottom one for OS X.
 
-    > You can verify which one you selected by inspecting the build log for your project. The build target for `JKEmoji` will be listed as either `JKEmojiiOS`, `JKEmojiOSX`, `JKEmojiTVOS` or `JKEmojiWatchOS`.
+    > You can verify which one you selected by inspecting the build log for your project. The build target for `Croc` will be listed as either `CrociOS`, `CrocOSX`, `CrocTVOS` or `CrocWatchOS`.
 
 - And that's it!
 
-  > The `JKEmoji.framework` is automagically added as a target dependency, linked framework and embedded framework in a copy files build phase which is all you need to build on the simulator and a device.
+  > The `Croc.framework` is automagically added as a target dependency, linked framework and embedded framework in a copy files build phase which is all you need to build on the simulator and a device.
 
 ## Requirements
 
@@ -137,4 +137,4 @@ If this project helps you reduce time to develop, you can give me a cup of coffe
 
 ## License
 
-JKEmoji is released under the MIT license. [See LICENSE](https://github.com/JKalash/JKEmoji/blob/master/LICENSE) for details.
+Croc is released under the MIT license. [See LICENSE](https://github.com/JKalash/Croc/blob/master/LICENSE) for details.
