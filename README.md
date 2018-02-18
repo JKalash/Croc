@@ -120,6 +120,19 @@ If you prefer not to use any of the aforementioned dependency managers, you can 
 
 ## Requirements
 
-- iOS 8.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
+- iOS 8.0+ / macOS 10.9+ / tvOS 9.0+ / watchOS 2.0+
 - Xcode 8.3+
 - Swift 3.1+
+
+## Author
+
+Joseph Kalash, josephkalash@gmail.com
+
+## Donation
+If this project helps you reduce time to develop, you can give me a cup of coffee :) 
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MHHC3G7U6UHE2
+
+## License
+
+JKEmoji is released under the MIT license. [See LICENSE](https://github.com/JKalash/JKEmoji/blob/master/LICENSE) for details.
