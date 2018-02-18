@@ -52,15 +52,6 @@ class StringExtensionTests: XCTestCase {
         XCTAssert("".emojiCount == 0)
         XCTAssert("😈🏪🕣🏳️‍🌈🇱🇧".emojiCount == 5)
         
-        let emojis = JKEmoji.emojis(for: .symbols)
-        var invalid : Array<Character> = []
-        for e in emojis {
-            if !e.isEmoji {
-                invalid.append(e)
-                print(e)
-            }
-        }
-        
         //Request emojis for a group
         //Construct a string from a group
         //Make sure matching emoji count
@@ -68,6 +59,7 @@ class StringExtensionTests: XCTestCase {
         for group in groups {
             let emojis = JKEmoji.emojis(for: group)
             let concat = String(emojis)
+            print(concat)
             XCTAssert(concat.emojiCount == emojis.count)
         }
         
