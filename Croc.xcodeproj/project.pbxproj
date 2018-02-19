@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E12C21F203B19FE00601E5E /* Character+Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12C21E203B19FE00601E5E /* Character+Unicode.swift */; };
+		3E12C223203B1B0000601E5E /* Character+Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12C21E203B19FE00601E5E /* Character+Unicode.swift */; };
+		3E12C224203B1B0000601E5E /* Character+Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12C21E203B19FE00601E5E /* Character+Unicode.swift */; };
+		3E12C225203B1B0100601E5E /* Character+Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12C21E203B19FE00601E5E /* Character+Unicode.swift */; };
 		3E1FAFF42035B31C002E4DB9 /* Croc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1FAFEB2035B31B002E4DB9 /* Croc.framework */; };
 		3E1FB01D2035B350002E4DB9 /* Croc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1FB0142035B350002E4DB9 /* Croc.framework */; };
 		3E1FB02B2035B356002E4DB9 /* Croc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED865262034B097005B63ED /* Croc.swift */; };
@@ -67,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E12C21E203B19FE00601E5E /* Character+Unicode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+Unicode.swift"; sourceTree = "<group>"; };
 		3E1FAFEB2035B31B002E4DB9 /* Croc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Croc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1FAFF32035B31C002E4DB9 /* CrociOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrociOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1FB0072035B32C002E4DB9 /* Croc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Croc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +161,7 @@
 		3ED8650B2034A944005B63ED = {
 			isa = PBXGroup;
 			children = (
-				3ED865242034B08B005B63ED /* Sources */,
+				3ED865242034B08B005B63ED /* Source */,
 				3ED8652E2034B0B6005B63ED /* Tests */,
 				3ED865162034A944005B63ED /* Products */,
 			);
@@ -176,16 +181,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3ED865242034B08B005B63ED /* Sources */ = {
+		3ED865242034B08B005B63ED /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				3ED865262034B097005B63ED /* Croc.swift */,
 				3E3FBD052038775400A5AD4A /* EmojiReference.swift */,
 				3E3FBD0F203878DA00A5AD4A /* EmojiTypes.swift */,
 				3E3FBD17203898B800A5AD4A /* EmojiLookup.swift */,
+				3E12C21E203B19FE00601E5E /* Character+Unicode.swift */,
 				3EB91A062035CBBE00C59FA9 /* Supporting Files */,
 			);
-			name = Sources;
 			path = Source;
 			sourceTree = "<group>";
 		};
@@ -379,7 +384,7 @@
 					};
 					3E1FAFF22035B31C002E4DB9 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					3E1FB0062035B32C002E4DB9 = {
 						CreatedOnToolsVersion = 9.2;
@@ -490,6 +495,7 @@
 				3E3FBD10203878DA00A5AD4A /* EmojiTypes.swift in Sources */,
 				3E3FBD062038775400A5AD4A /* EmojiReference.swift in Sources */,
 				3E3FBD18203898B800A5AD4A /* EmojiLookup.swift in Sources */,
+				3E12C21F203B19FE00601E5E /* Character+Unicode.swift in Sources */,
 				3E1FB02B2035B356002E4DB9 /* Croc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +516,7 @@
 				3E3FBD11203878DA00A5AD4A /* EmojiTypes.swift in Sources */,
 				3E3FBD072038775400A5AD4A /* EmojiReference.swift in Sources */,
 				3E3FBD19203898BE00A5AD4A /* EmojiLookup.swift in Sources */,
+				3E12C223203B1B0000601E5E /* Character+Unicode.swift in Sources */,
 				3E1FB02C2035B356002E4DB9 /* Croc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,6 +528,7 @@
 				3E3FBD12203878DA00A5AD4A /* EmojiTypes.swift in Sources */,
 				3E3FBD082038775400A5AD4A /* EmojiReference.swift in Sources */,
 				3E3FBD1A203898BE00A5AD4A /* EmojiLookup.swift in Sources */,
+				3E12C224203B1B0000601E5E /* Character+Unicode.swift in Sources */,
 				3E1FB02D2035B357002E4DB9 /* Croc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,6 +549,7 @@
 				3E3FBD13203878DA00A5AD4A /* EmojiTypes.swift in Sources */,
 				3E3FBD092038775400A5AD4A /* EmojiReference.swift in Sources */,
 				3E3FBD1B203898BE00A5AD4A /* EmojiLookup.swift in Sources */,
+				3E12C225203B1B0100601E5E /* Character+Unicode.swift in Sources */,
 				3E1FB04A2035B387002E4DB9 /* Croc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -624,12 +633,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.CrociOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -640,12 +650,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.CrociOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
