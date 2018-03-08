@@ -10,7 +10,6 @@
 		3E12C21F203B19FE00601E5E /* Character+Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12C21E203B19FE00601E5E /* Character+Unicode.swift */; };
 		3E12C223203B1B0000601E5E /* Character+Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12C21E203B19FE00601E5E /* Character+Unicode.swift */; };
 		3E12C224203B1B0000601E5E /* Character+Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12C21E203B19FE00601E5E /* Character+Unicode.swift */; };
-		3E12C225203B1B0100601E5E /* Character+Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12C21E203B19FE00601E5E /* Character+Unicode.swift */; };
 		3E1FAFF42035B31C002E4DB9 /* Croc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1FAFEB2035B31B002E4DB9 /* Croc.framework */; };
 		3E1FB01D2035B350002E4DB9 /* Croc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1FB0142035B350002E4DB9 /* Croc.framework */; };
 		3E1FB02B2035B356002E4DB9 /* Croc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED865262034B097005B63ED /* Croc.swift */; };
@@ -549,7 +548,6 @@
 				3E3FBD13203878DA00A5AD4A /* EmojiTypes.swift in Sources */,
 				3E3FBD092038775400A5AD4A /* EmojiReference.swift in Sources */,
 				3E3FBD1B203898BE00A5AD4A /* EmojiLookup.swift in Sources */,
-				3E12C225203B1B0100601E5E /* Character+Unicode.swift in Sources */,
 				3E1FB04A2035B387002E4DB9 /* Croc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,7 +599,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.croc;
 				PRODUCT_NAME = Croc;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -623,7 +621,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.croc;
 				PRODUCT_NAME = Croc;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -680,7 +678,7 @@
 				PRODUCT_NAME = Croc;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -704,7 +702,7 @@
 				PRODUCT_NAME = Croc;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -727,7 +725,7 @@
 				PRODUCT_NAME = Croc;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -750,7 +748,7 @@
 				PRODUCT_NAME = Croc;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -815,7 +813,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -840,7 +838,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -937,6 +935,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -989,6 +988,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

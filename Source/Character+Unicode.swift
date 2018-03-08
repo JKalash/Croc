@@ -55,10 +55,10 @@ extension Character {
     /// - Returns: a Portable Network Graphic (png), as Data optional
     func png(ofSize fontSize: CGFloat) -> Data? {
         
-        let attributes = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: fontSize)]
+        let attributes = [NSFontAttributeName: UIFont.systemFont(ofSize: fontSize)]
         
         let charStr = "\(self)" as NSString
-        let size = charStr.size(withAttributes: attributes)
+        let size = charStr.size(attributes: attributes)
         
         UIGraphicsBeginImageContext(size)
         charStr.draw(at: CGPoint(x: 0,y :0), withAttributes: attributes)

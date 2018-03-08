@@ -24,7 +24,7 @@
 
 internal class EmojiReference {
     
-    private var emojiList : Array<Emoji> = []
+    internal var emojiList : Array<Emoji> = []
     
     //For fast lookup of hashcodes
     private var emojiHashcodes : Dictionary<String, Bool> = [:]
@@ -95,9 +95,15 @@ extension EmojiReference {
                 // As such, converting them to Character type from String will fail.
                 // For that, check if unicode supported before appending
                 let emojiString = String(String.UnicodeScalarView(emoji.codePoints))
-                if emojiString.unicodeSupported { //Makes sure emoji supported
-                    emojis.append(Character(emojiString))
-                }
+                #if !os(OSX)
+                    if emojiString.unicodeSupported { //Makes sure emoji supported
+                        emojis.append(Character(emojiString))
+                    }
+                #else
+                    if emojiString.count == 1 {
+                        emojis.append(Character(emojiString))
+                    }
+                #endif
             }
             
             if emojis.count == limit {
@@ -119,9 +125,15 @@ extension EmojiReference {
                 // As such, converting them to Character type from String will fail.
                 // For that, check if unicode supported before appending
                 let emojiString = String(String.UnicodeScalarView(emoji.codePoints))
+                #if !os(OSX)
                 if emojiString.unicodeSupported { //Makes sure emoji supported
                     emojis.append(Character(emojiString))
                 }
+                #else
+                if emojiString.count == 1 {
+                    emojis.append(Character(emojiString))
+                }
+                #endif
             }
             
             if emojis.count == limit {

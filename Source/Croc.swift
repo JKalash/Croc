@@ -27,11 +27,14 @@ let emojiRef = EmojiReference()
 
 extension Character {
     
-    
     /// Returns true if the character is an emoji
     public var isEmoji : Bool {
         get {
-            return  emojiRef.isEmoji(Array(self.unicodeScalars)) && self.unicodeSupported
+            #if !os(OSX)
+            return emojiRef.isEmoji(Array(self.unicodeScalars)) && self.unicodeSupported
+            #else
+            return emojiRef.isEmoji(Array(self.unicodeScalars))
+            #endif
         }
     }
     
