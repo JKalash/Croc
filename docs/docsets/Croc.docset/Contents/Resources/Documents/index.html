@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Croc  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="Croc  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">Croc Docs</a> (53% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">Croc Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Croc  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/Croc.html">Croc</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/EmojiGroup.html">EmojiGroup</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/Character.html">Character</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/String.html">String</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/Emoji.html">Emoji</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <p><img src="https://cdn.rawgit.com/jkalash/croc/4dd2f48/Resources/Croc.svg" width="370"/></p>
+
+<p><strong>Croc</strong> is a library for parsing emojis on iOS. It provides a simple and lightweight interface for detecting, generating, categorizing and managing emoji characters, making emoji-powered features an easy task for developers. </p>
+
+<p><a href="https://travis-ci.org/JKalash/Croc"><img src="https://travis-ci.org/JKalash/Croc.svg?branch=master" alt="Build Status"></a>
+<a href="https://img.shields.io/cocoapods/v/Croc.svg"><img src="https://img.shields.io/cocoapods/v/Croc.svg" alt="CocoaPods Compatible"></a>
+<a href="https://img.shields.io/cocoapods/dt/Croc.svg"><img src="https://img.shields.io/cocoapods/dt/Croc.svg" alt="CocoaPods"></a>
+<a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage Compatible"></a>
+<a href="https://img.shields.io/cocoapods/p/Croc.svg?style=flat"><img src="https://img.shields.io/cocoapods/p/Croc.svg?style=flat" alt="Platform"></a>
+<a href="http://cocoapods.org/pods/Croc"><img src="https://img.shields.io/cocoapods/l/Croc.svg?style=flat" alt="License"></a>
+<a href=""><img src="http://img.shields.io/badge/Swift-3.2%2B-orange.svg" alt="Swift-4.0+"></a>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MHHC3G7U6UHE2"><img src="https://img.shields.io/badge/Donate-PayPal-blue.svg" alt="Donate"></a></p>
+<h2 id='installation' class='heading'>Installation</h2>
+<h3 id='cocoapods' class='heading'>CocoaPods</h3>
+
+<p><a href="http://cocoapods.org">CocoaPods</a> is a dependency manager for Cocoa projects. You can install it with the following command:</p>
+<pre class="highlight shell"><code><span class="nv">$ </span>gem <span class="nb">install </span>cocoapods
+</code></pre>
+
+<blockquote>
+<p>CocoaPods 1.1+ is required to build Croc</p>
+</blockquote>
+
+<p>To integrate Croc into your Xcode project using CocoaPods, specify it in your <code>Podfile</code>:</p>
+<pre class="highlight ruby"><code><span class="n">source</span> <span class="s1">'https://github.com/CocoaPods/Specs.git'</span>
+<span class="n">platform</span> <span class="ss">:ios</span><span class="p">,</span> <span class="s1">'10.0'</span>
+<span class="n">use_frameworks!</span>
+
+<span class="n">target</span> <span class="s1">'&lt;Your Target Name&gt;'</span> <span class="k">do</span>
+    <span class="n">pod</span> <span class="s1">'Croc'</span>
+<span class="k">end</span>
+</code></pre>
+
+<p>Then, run the following command:</p>
+<pre class="highlight shell"><code><span class="nv">$ </span>pod <span class="nb">install</span>
+</code></pre>
+<h3 id='carthage' class='heading'>Carthage</h3>
+
+<p><a href="https://github.com/Carthage/Carthage">Carthage</a> is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.</p>
+
+<p>You can install Carthage with <a href="http://brew.sh/">Homebrew</a> using the following command:</p>
+<pre class="highlight shell"><code><span class="nv">$ </span>brew update
+<span class="nv">$ </span>brew <span class="nb">install </span>carthage
+</code></pre>
+
+<p>To integrate Croc into your Xcode project using Carthage, specify it in your <code>Cartfile</code>:</p>
+<pre class="highlight plaintext"><code>github "JKalash/Croc"
+</code></pre>
+
+<p>Run <code>carthage update</code> to build the framework and drag the built <code>Croc.framework</code> into your Xcode project.</p>
+<h3 id='swift-package-manager' class='heading'>Swift Package Manager</h3>
+
+<p>The <a href="https://swift.org/package-manager/">Swift Package Manager</a> is a tool for automating the distribution of Swift code and is integrated into the <code>swift</code> compiler. It is in early development, but Croc does support its use on supported platforms. </p>
+
+<p>Once you have your Swift package set up, adding Croc as a dependency is as easy as adding it to the <code>dependencies</code> value of your <code>Package.swift</code>.</p>
+<h4 id='swift-3' class='heading'>Swift 3</h4>
+<pre class="highlight swift"><code><span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span>
+    <span class="o">.</span><span class="kt">Package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/JKalash/Croc.git"</span><span class="p">,</span> <span class="nv">majorVersion</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span>
+<span class="p">]</span>
+</code></pre>
+<h4 id='swift-4' class='heading'>Swift 4</h4>
+<pre class="highlight swift"><code><span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span>
+    <span class="o">.</span><span class="nf">package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/JKalash/Croc.git"</span><span class="p">,</span> <span class="nv">from</span><span class="p">:</span> <span class="s">"0.0.0"</span><span class="p">)</span>
+<span class="p">]</span>
+</code></pre>
+<h3 id='manually' class='heading'>Manually</h3>
+
+<p>If you prefer not to use any of the aforementioned dependency managers, you can integrate Croc into your project manually.</p>
+<h4 id='embedded-framework' class='heading'>Embedded Framework</h4>
+
+<ul>
+<li>Open up Terminal, <code>cd</code> into your top-level project directory, and run the following command <q>if</q> your project is not initialized as a git repository:</li>
+</ul>
+<pre class="highlight shell"><code>  <span class="nv">$ </span>git init
+</code></pre>
+
+<ul>
+<li>Add Croc as a git <a href="http://git-scm.com/docs/git-submodule">submodule</a> by running the following command:</li>
+</ul>
+<pre class="highlight shell"><code>  <span class="nv">$ </span>git submodule add https://github.com/JKalash/Croc.git
+</code></pre>
+
+<ul>
+<li><p>Open the new <code><a href="Classes/Croc.html">Croc</a></code> folder, and drag the <code>Croc.xcodeproj</code> into the Project Navigator of your application&rsquo;s Xcode project.</p>
+
+<blockquote>
+<p>It should appear nested underneath your application&rsquo;s blue project icon. Whether it is above or below all the other Xcode groups does not matter.</p>
+</blockquote></li>
+<li><p>Select the <code>Croc.xcodeproj</code> in the Project Navigator and verify the deployment target matches that of your application target.</p></li>
+<li><p>Next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the <q>Targets</q> heading in the sidebar.</p></li>
+<li><p>In the tab bar at the top of that window, open the <q>General</q> panel.</p></li>
+<li><p>Click on the <code>+</code> button under the <q>Embedded Binaries</q> section.</p></li>
+<li><p>You will see two different <code>Croc.xcodeproj</code> folders each with two different versions of the <code>Croc.framework</code> nested inside a <code>Products</code> folder.</p>
+
+<blockquote>
+<p>It does not matter which <code>Products</code> folder you choose from, but it does matter whether you choose the top or bottom <code>Croc.framework</code>.</p>
+</blockquote></li>
+<li><p>Select the top <code>Croc.framework</code> for iOS and the bottom one for OS X.</p>
+
+<blockquote>
+<p>You can verify which one you selected by inspecting the build log for your project. The build target for <code><a href="Classes/Croc.html">Croc</a></code> will be listed as either <code>CrociOS</code>, <code>CrocOSX</code>, <code>CrocTVOS</code> or <code>CrocWatchOS</code>.</p>
+</blockquote></li>
+<li><p>And that&rsquo;s it!</p></li>
+</ul>
+
+<blockquote>
+<p>The <code>Croc.framework</code> is automagically added as a target dependency, linked framework and embedded framework in a copy files build phase which is all you need to build on the simulator and a device.</p>
+</blockquote>
+<h2 id='requirements' class='heading'>Requirements</h2>
+
+<ul>
+<li>iOS 8.0+ / macOS 10.9+ / tvOS 9.0+ / watchOS 2.0+</li>
+<li>Xcode 8.3+</li>
+<li>Swift 3.1+</li>
+</ul>
+<h2 id='author' class='heading'>Author</h2>
+
+<p>Joseph Kalash, <a href="mailto:josephkalash@gmail.com">josephkalash@gmail.com</a></p>
+<h2 id='donation' class='heading'>Donation</h2>
+
+<p>If this project helps you reduce time to develop, you can give me a cup of coffee :) </p>
+
+<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MHHC3G7U6UHE2"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="paypal"></a></p>
+<h2 id='license' class='heading'>License</h2>
+
+<p>Croc is released under the MIT license. <a href="https://github.com/JKalash/Croc/blob/master/LICENSE">See LICENSE</a> for details.</p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/JKalash/Croc" target="_blank" rel="external">Joseph Kalash</a>. All rights reserved. (Last updated: 2018-03-08)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
