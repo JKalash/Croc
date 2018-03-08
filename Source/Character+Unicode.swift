@@ -42,7 +42,7 @@ extension Character {
     /// Tests against the existence of a given unicode glyph on the present OS
     ///
     /// - Returns: true if this unicode (including emoji) will return an meaningful representation (i.e, not a ῿)
-    public func unicodeAvailable() -> Bool {
+    public var unicodeSupported : Bool {
         if let refUnicodePng = Character.refUnicodePng,
             let myPng = self.png(ofSize: Character.refUnicodeSize) {
             return refUnicodePng != myPng

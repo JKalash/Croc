@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😣" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHF-1L-BZF">
+                                <rect key="frame" x="147" y="293" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="KpD-XI-OfI"/>
+                                    <constraint firstAttribute="width" constant="80" id="WNo-Zy-X4o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smileys &amp; People" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dG8-jn-ti8">
+                                <rect key="frame" x="10" y="630" width="355" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Persevering Face" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3K-Tx-5yB">
+                                <rect key="frame" x="16" y="381" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="nte-c3-bkv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6Vv-bM-6mb">
+                                <rect key="frame" x="10" y="594" width="355" height="29"/>
+                                <segments>
+                                    <segment title="😀"/>
+                                    <segment title="🐶"/>
+                                    <segment title="🍏"/>
+                                    <segment title="⚽️"/>
+                                    <segment title="🚗"/>
+                                    <segment title="⌚️"/>
+                                    <segment title="❤️"/>
+                                    <segment title="🏳️"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changedGroupWithSender:" destination="BYZ-38-t0r" eventType="valueChanged" id="gos-i3-6Tc"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tHF-1L-BZF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="73u-1j-L1S"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b3K-Tx-5yB" secondAttribute="trailing" constant="16" id="7D7-m3-dEL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dG8-jn-ti8" secondAttribute="trailing" constant="10" id="7DK-ED-dmO"/>
+                            <constraint firstItem="6Vv-bM-6mb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="UnI-XS-SSF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Vv-bM-6mb" secondAttribute="trailing" constant="10" id="Wgd-0L-l1l"/>
+                            <constraint firstItem="b3K-Tx-5yB" firstAttribute="top" secondItem="tHF-1L-BZF" secondAttribute="bottom" constant="8" id="bVr-xd-Faj"/>
+                            <constraint firstItem="dG8-jn-ti8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="cfE-lE-Sz4"/>
+                            <constraint firstItem="b3K-Tx-5yB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="erc-fW-EVd"/>
+                            <constraint firstItem="tHF-1L-BZF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="g02-S8-ik8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6Vv-bM-6mb" secondAttribute="bottom" constant="45" id="gGZ-EB-V7t"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dG8-jn-ti8" secondAttribute="bottom" constant="16" id="wYl-OQ-0pP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="emojiDescriptionLabel" destination="b3K-Tx-5yB" id="yNM-Fz-PHA"/>
+                        <outlet property="emojiLabel" destination="tHF-1L-BZF" id="3Id-rM-MYb"/>
+                        <outlet property="groupNameLabel" destination="dG8-jn-ti8" id="DZG-vm-d4O"/>
+                        <outlet property="groupSelector" destination="6Vv-bM-6mb" id="aTe-kd-EeA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
