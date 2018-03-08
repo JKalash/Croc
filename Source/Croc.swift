@@ -31,11 +31,13 @@ extension Character {
     /// Returns true if the character is an emoji
     public var isEmoji : Bool {
         get {
-            return  emojiRef.isEmoji(Array(self.unicodeScalars))
+            return  emojiRef.isEmoji(Array(self.unicodeScalars)) && self.unicodeSupported
         }
     }
     
-    /// English description for the emoji. Returns nil character is not an emoji
+    /// English description for the emoji. Returns nil if:
+    // 1. Character is not an emoji
+    // 2. OS does not yet support Unicode version for an emoji
     public var emojiDescription : String? {
         get {
             if isEmoji {

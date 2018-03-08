@@ -91,12 +91,11 @@ extension EmojiReference {
         
         for emoji in self.emojiList {
             if emoji.subgroup == subgroup {
-                
                 // Some of the grapheme types may not yet be supported (Unicode 11.0)
                 // As such, converting them to Character type from String will fail.
-                // For that, check String element count before appending
+                // For that, check if unicode supported before appending
                 let emojiString = String(String.UnicodeScalarView(emoji.codePoints))
-                if emojiString.count == 1 {
+                if emojiString.unicodeSupported { //Makes sure emoji supported
                     emojis.append(Character(emojiString))
                 }
             }
@@ -116,12 +115,11 @@ extension EmojiReference {
         
         for emoji in self.emojiList {
             if emoji.group == group {
-                
                 // Some of the grapheme types may not yet be supported (Unicode 11.0)
                 // As such, converting them to Character type from String will fail.
-                // For that, check String element count before appending
+                // For that, check if unicode supported before appending
                 let emojiString = String(String.UnicodeScalarView(emoji.codePoints))
-                if emojiString.count == 1 { //Makes sure emoji supported
+                if emojiString.unicodeSupported { //Makes sure emoji supported
                     emojis.append(Character(emojiString))
                 }
             }
