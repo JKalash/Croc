@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet var groupSelector: UISegmentedControl!
     @IBOutlet var groupNameLabel: UILabel!
     
+    @IBOutlet weak var refPNGImage: UIImageView!
+    
     var timer : Timer?
     
     override func viewDidLoad() {
@@ -29,6 +31,8 @@ class ViewController: UIViewController {
             self.emojiDescriptionLabel.text = randEmoji.emojiDescription?.uppercased()
             
         }
+        
+        refPNGImage.image = String("👨🏾‍🌾")[0].png(ofSize: 8.0)
     }
 
     override func viewDidDisappear(_ animated: Bool) {

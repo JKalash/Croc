@@ -28,7 +28,7 @@ import Foundation
 import UIKit
 
 
-extension Character {
+public extension Character {
     
     /// Pick a size, any size really, for a reasonable png bitmap comparison
     private static let refUnicodeSize: CGFloat = 8
@@ -53,7 +53,7 @@ extension Character {
     ///
     /// - Parameter char: a Character
     /// - Returns: a Portable Network Graphic (png), as Data optional
-    func png(ofSize fontSize: CGFloat) -> Data? {
+    public func png(ofSize fontSize: CGFloat) -> Data? {
         
         let attributes = [NSFontAttributeName: UIFont.systemFont(ofSize: fontSize)]
         
@@ -77,6 +77,7 @@ extension String {
     ///
     /// - Returns: true if this string's unicodes (including emojis) will all return meaningful representations (i.e, not a ῿)
     public var unicodeSupported : Bool {
+        print(Array(self.unicodeScalars))
         for char in self {
             if !char.unicodeSupported {
                 return false

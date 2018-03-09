@@ -124,7 +124,7 @@ If you prefer not to use any of the aforementioned dependency managers, you can 
 
 - iOS 8.0+ / macOS 10.9+ / tvOS 9.0+ / watchOS 2.0+
 - Xcode 8.3+
-- Swift 3.1+
+- Swift 3.2+
 
 ## Author
 
