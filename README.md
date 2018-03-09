@@ -11,6 +11,13 @@
 [![Swift-4.0+](http://img.shields.io/badge/Swift-3.2%2B-orange.svg)]()
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MHHC3G7U6UHE2)
 
+## Usage
+
+### Checking for emojis
+<img src="https://cdn.rawgit.com/jkalash/croc/6ae2807/Resources/checking_emojis.png" width="1000"/>
+### Querying for emojis
+<img src="https://cdn.rawgit.com/jkalash/croc/6ae2807/Resources/querying_emojis.png" width="1000"/>
+
 ## Installation
 
 ### CocoaPods
