@@ -14,9 +14,12 @@
 ## Usage
 
 ### Checking for emojis
-<img src="https://cdn.rawgit.com/jkalash/croc/6ae2807/Resources/checking_emojis.png" width="1000"/>
+
+![checking emojis](https://github.com/jkalash/croc/raw/master/Resources/checking_emojis.png)
+
 ### Querying for emojis
-<img src="https://cdn.rawgit.com/jkalash/croc/6ae2807/Resources/querying_emojis.png" width="1000"/>
+
+![querying emojis](https://github.com/jkalash/croc/raw/master/Resources/querying_emojis.png)
 
 ## Installation
 
