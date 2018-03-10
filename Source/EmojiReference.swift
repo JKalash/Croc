@@ -96,7 +96,7 @@ extension EmojiReference {
                 // For that, check if unicode supported before appending
                 let emojiString = String(String.UnicodeScalarView(emoji.codePoints))
                 #if !os(OSX)
-                    if emojiString.unicodeSupported { //Makes sure emoji supported
+                    if emojiString.unicodeSupported && emojiString.count == 1 { //Makes sure emoji supported
                         emojis.append(Character(emojiString))
                     }
                 #else
@@ -126,7 +126,7 @@ extension EmojiReference {
                 // For that, check if unicode supported before appending
                 let emojiString = String(String.UnicodeScalarView(emoji.codePoints))
                 #if !os(OSX)
-                if emojiString.unicodeSupported { //Makes sure emoji supported
+                if emojiString.unicodeSupported && emojiString.count == 1 { //Makes sure emoji supported
                     emojis.append(Character(emojiString))
                 }
                 #else

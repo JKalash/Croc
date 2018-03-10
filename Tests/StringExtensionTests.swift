@@ -40,7 +40,7 @@ class StringExtensionTests: XCTestCase {
         XCTAssert("🍮".isEmoji)
         XCTAssert("💩".isEmoji)
         XCTAssert("🐕".isEmoji)
-        XCTAssert("🚣🏿‍♂️".isEmoji)
+        XCTAssert("🚣🏿‍♂️".count > 1 ||  "🚣🏿‍♂️".isEmoji)
         XCTAssert("🇷🇺".isEmoji)
         XCTAssert("👀".isEmoji)
     
@@ -64,7 +64,7 @@ class StringExtensionTests: XCTestCase {
     
     func testEmojiCount() {
         
-        XCTAssert("ok 😂 my 👻 c 😮he🧓🏾llo ⌛️🎇_uj🏦🥉🎂🅰️🇹🇬🇾🇹🇮🇪√📈👨‍👨‍👦‍👦Ô¨👩‍👩‍👧•‡👭🦉ÒÓ🐽🐬Ï😤".emojiCount >= 20)
+        XCTAssert("ok 😂 my 👻 c 😮he🧓🏾llo ⌛️🎇_uj🏦🥉🎂🅰️🇹🇬🇾🇹🇮🇪√📈👨‍👨‍👦‍👦Ô¨👩‍👩‍👧•‡👭🦉ÒÓ".emojiCount >= 20)
         XCTAssert("".emojiCount == 0)
         XCTAssert("😈🏪🕣🏳️‍🌈🇱🇧".emojiCount == 5)
         

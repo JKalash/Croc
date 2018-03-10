@@ -36,7 +36,7 @@ class CharExtensionTests: XCTestCase {
     func testEmojiDescription() {
         XCTAssert(Character("😀").emojiDescription == "grinning face")
         XCTAssert(Character("😷").emojiDescription == "face with medical mask")
-        XCTAssert(!"👷‍♂️".unicodeSupported ||  Character("👷‍♂️").emojiDescription == "man construction worker")
+        XCTAssert(!"👷‍♂️".unicodeSupported || "👷‍♂️".count > 1 ||  Character("👷‍♂️").emojiDescription == "man construction worker")
         XCTAssert(Character("˚").emojiDescription == nil)
     }
 

@@ -31,8 +31,6 @@ class ViewController: UIViewController {
             self.emojiDescriptionLabel.text = randEmoji.emojiDescription?.uppercased()
             
         }
-        
-        refPNGImage.image = String("👨🏾‍🌾")[0].png(ofSize: 8.0)
     }
 
     override func viewDidDisappear(_ animated: Bool) {
