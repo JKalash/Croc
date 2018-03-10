@@ -64,7 +64,10 @@ class StringExtensionTests: XCTestCase {
     
     func testEmojiCount() {
         
-        XCTAssert("ok 😂 my 👻 c 😮he🧓🏾llo ⌛️🎇_uj🏦🥉🎂🅰️🇹🇬🇾🇹🇮🇪√📈👨‍👨‍👦‍👦Ô¨👩‍👩‍👧•‡👭🦉ÒÓ".emojiCount >= 20)
+        if #available(iOS 10.0, *) {
+             XCTAssert("_😂_👻_😮_🧓🏾_⌛️_🎇_🏦_🥉_🎂_🅰️_🇹🇬_🇾🇹_🇮🇪_📈_👨‍👨‍👦‍👦_👩‍👩‍👧_👭_🦉_🧚🏿‍♂️_🧟‍♀️_👯‍♀️_👳🏿‍♂️_🌮_🎿_🏎_🏖_📷_📋_".emojiCount == 26)
+        }
+        
         XCTAssert("".emojiCount == 0)
         XCTAssert("😈🏪🕣🏳️‍🌈🇱🇧".emojiCount == 5)
         
@@ -74,8 +77,7 @@ class StringExtensionTests: XCTestCase {
         let groups = Croc.groupTypes
         for group in groups {
             let emojis = Croc.emojis(for: group)
-            let concat = String(emojis)
-            print(concat)
+            let concat = emojis.map({ String($0)}).joined(separator: " ")
             XCTAssert(concat.emojiCount == emojis.count)
         }
         
@@ -83,6 +85,18 @@ class StringExtensionTests: XCTestCase {
     
     func testEmojis() {
         XCTAssert("ok¢∞§ 📞ª🏤 my√∆ß∆ 👻 c 🚬hello _;=-1".emojis == ["📞","🏤", "👻", "🚬"])
+        XCTAssert("".emojis == [])
+        XCTAssert("hello, world!".emojis == [])
+        
+        //Request emojis for a group
+        //Construct a string from a group
+        //Make sure matching emoji count
+        let groups = Croc.groupTypes
+        for group in groups {
+            let emojis = Croc.emojis(for: group)
+            let concat = emojis.map({ String($0)}).joined(separator: " ")
+            XCTAssert(concat.emojis.count == emojis.count)
+        }
     }
     
 }
