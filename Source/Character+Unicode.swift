@@ -22,7 +22,7 @@
 //  THE SOFTWARE.
 //
 
-#if os(iOS) || os(watchOS) || os(tvOS)
+#if !os(OSX)
     
 import Foundation
 import UIKit

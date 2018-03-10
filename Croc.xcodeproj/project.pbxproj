@@ -40,6 +40,8 @@
 		3EB9F1542052FD6A003478A4 /* emojis.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EB9F1522052FD6A003478A4 /* emojis.json */; };
 		3EB9F1552052FD6A003478A4 /* emojis.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EB9F1522052FD6A003478A4 /* emojis.json */; };
 		3EB9F1562052FD6A003478A4 /* emojis.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EB9F1522052FD6A003478A4 /* emojis.json */; };
+		3EBE5BDC20546FCB004DBA51 /* Character+Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12C21E203B19FE00601E5E /* Character+Unicode.swift */; };
+		3EBE5BDD20546FE2004DBA51 /* Character+Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12C21E203B19FE00601E5E /* Character+Unicode.swift */; };
 		3ED83F542035CF3C009CADD6 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED83F532035CF3C009CADD6 /* StringExtensionTests.swift */; };
 		3ED83F552035CF3C009CADD6 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED83F532035CF3C009CADD6 /* StringExtensionTests.swift */; };
 		3ED83F562035CF3C009CADD6 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED83F532035CF3C009CADD6 /* StringExtensionTests.swift */; };
@@ -503,6 +505,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBE5BDC20546FCB004DBA51 /* Character+Unicode.swift in Sources */,
 				3ED83F542035CF3C009CADD6 /* StringExtensionTests.swift in Sources */,
 				3E3FBD1D203968B800A5AD4A /* CharExtensionTests.swift in Sources */,
 			);
@@ -536,6 +539,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBE5BDD20546FE2004DBA51 /* Character+Unicode.swift in Sources */,
 				3ED83F552035CF3C009CADD6 /* StringExtensionTests.swift in Sources */,
 				3E3FBD1E203968B800A5AD4A /* CharExtensionTests.swift in Sources */,
 			);
@@ -638,7 +642,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.CrociOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -655,7 +659,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.CrociOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -767,7 +771,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.2;
 			};
@@ -786,7 +790,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.2;
 			};
@@ -857,7 +861,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -876,7 +880,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
