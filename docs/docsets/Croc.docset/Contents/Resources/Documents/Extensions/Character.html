@@ -4,69 +4,99 @@
     <title>Character Extension Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
+
     <a name="//apple_ref/swift/Extension/Character" class="dashAnchor"></a>
+
     <a title="Character Extension Reference"></a>
-    <header>
-      <div class="content-wrapper">
-        <p><a href="../index.html">Croc Docs</a> (53% documented)</p>
-      </div>
-    </header>
-    <div class="content-wrapper">
-      <p id="breadcrumbs">
-        <a href="../index.html">Croc Reference</a>
-        <img id="carat" src="../img/carat.png" />
-        Character Extension Reference
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          Croc Docs
+        </a>
+         (56% documented)
       </p>
-    </div>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/jkalash/Croc">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="dash-feed://https%3A%2F%2Fjkalash%2Egithub%2Eio%2Fdocsets%2FCroc%2Exml">
+            <img class="header-icon" src="../img/dash.png"/>
+            Install in Dash
+          </a>
+        </p>
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">Croc Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      Character Extension Reference
+    </p>
+
     <div class="content-wrapper">
-      <nav class="sidebar">
+      <nav class="navigation">
         <ul class="nav-groups">
           <li class="nav-group-name">
-            <a href="../Classes.html">Classes</a>
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Classes/Croc.html">Croc</a>
+                <a class="nav-group-task-link" href="../Classes/Croc.html">Croc</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Enums.html">Enumerations</a>
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Enums/EmojiGroup.html">EmojiGroup</a>
+                <a class="nav-group-task-link" href="../Enums/EmojiGroup.html">EmojiGroup</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Extensions.html">Extensions</a>
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Extensions/Character.html">Character</a>
+                <a class="nav-group-task-link" href="../Extensions/Character.html">Character</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Extensions/String.html">String</a>
+                <a class="nav-group-task-link" href="../Extensions/String.html">String</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Structs.html">Structures</a>
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Structs/Emoji.html">Emoji</a>
+                <a class="nav-group-task-link" href="../Structs/Emoji.html">Emoji</a>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
       <article class="main-content">
-        <section>
-          <section class="section">
+
+        <section class="section">
+          <div class="section-content">
             <h1>Character</h1>
               <div class="declaration">
                 <div class="language">
@@ -75,10 +105,42 @@
                 </div>
               </div>
             
-          </section>
-          <section class="section task-group-section">
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s9CharacterV4CrocE13refUnicodePng10Foundation4DataVSgvZ"></a>
+                    <a name="//apple_ref/swift/Variable/refUnicodePng" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s9CharacterV4CrocE13refUnicodePng10Foundation4DataVSgvZ">refUnicodePng</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>U+1FFF is merely one of the many unicode characters not yet implemented (or defined).
+It thus prints a ῿ question mark, as do all the unavailable characters.
+All unavailable unicode characters share the same question mark [?] bitmap</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">refUnicodePng</span> <span class="o">=</span> <span class="kt">Character</span><span class="p">(</span><span class="s">"</span><span class="se">\u{1f975}</span><span class="s">"</span><span class="p">)</span><span class="o">.</span><span class="nf">png</span><span class="p">(</span><span class="nv">ofSize</span><span class="p">:</span> <span class="kt">Character</span><span class="o">.</span><span class="n">refUnicodeSize</span><span class="p">)</span> <span class="c1">// Future Emoji (unsupported)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
                 <li class="item">
                   <div>
                     <code>
@@ -110,10 +172,60 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s9CharacterV4CrocE3png10Foundation4DataVSg12CoreGraphics7CGFloatV6ofSize_tF"></a>
+                    <a name="//apple_ref/swift/Method/png(ofSize:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s9CharacterV4CrocE3png10Foundation4DataVSg12CoreGraphics7CGFloatV6ofSize_tF">png(ofSize:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a png from a Character</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">png</span><span class="p">(</span><span class="n">ofSize</span> <span class="nv">fontSize</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>char</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>a Character. Note: Only render first code point to prevent</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a Portable Network Graphic (png), as Data optional</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
@@ -170,14 +282,15 @@
                 </li>
               </ul>
             </div>
-          </section>
+          </div>
         </section>
-        <section id="footer">
-          <p>&copy; 2018 <a class="link" href="https://github.com/JKalash/Croc" target="_blank" rel="external">Joseph Kalash</a>. All rights reserved. (Last updated: 2018-03-08)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
-        </section>
+
       </article>
     </div>
+    <section class="footer">
+      <p>&copy; 2018 <a class="link" href="http://jkala.sh" target="_blank" rel="external">Joseph Kalash</a>. All rights reserved. (Last updated: 2018-03-19)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
   </body>
 </div>
 </html>

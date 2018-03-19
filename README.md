@@ -6,9 +6,9 @@
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Croc.svg)](https://img.shields.io/cocoapods/v/Croc.svg)
 [![CocoaPods](https://img.shields.io/cocoapods/dt/Croc.svg)](https://img.shields.io/cocoapods/dt/Croc.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Platform](https://img.shields.io/cocoapods/p/Croc.svg?style=flat)](https://img.shields.io/cocoapods/p/Croc.svg?style=flat)
+[![Platform](https://img.shields.io/cocoapods/p/Croc.svg?style=flat)](https://jkalash.github.io/)
 [![License](https://img.shields.io/cocoapods/l/Croc.svg?style=flat)](http://cocoapods.org/pods/Croc)
-[![Swift-4.0+](http://img.shields.io/badge/Swift-3.2%2B-orange.svg)]()
+[![Swift-4.0+](http://img.shields.io/badge/Swift-4.0%2B-orange.svg)]()
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MHHC3G7U6UHE2)
 
 ## Usage

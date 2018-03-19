@@ -1,0 +1,10 @@
+author: Joseph Kalash
+author_url: http://jkala.sh
+github_url: https://github.com/jkalash/Croc
+root_url: https://jkalash.github.io/Croc
+module: Croc
+output: docs
+theme: fullwidth
+xcodebuild_arguments: [-workspace, 'Croc.xcworkspace', -scheme, 'Croc iOS']
+
+
