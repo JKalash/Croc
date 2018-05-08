@@ -44,6 +44,9 @@
 		3ED83F542035CF3C009CADD6 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED83F532035CF3C009CADD6 /* StringExtensionTests.swift */; };
 		3ED83F552035CF3C009CADD6 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED83F532035CF3C009CADD6 /* StringExtensionTests.swift */; };
 		3ED83F562035CF3C009CADD6 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED83F532035CF3C009CADD6 /* StringExtensionTests.swift */; };
+		D823E3D220A1811B00850278 /* EmojiLookupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D823E3D120A1811B00850278 /* EmojiLookupTests.swift */; };
+		D823E3D320A1811B00850278 /* EmojiLookupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D823E3D120A1811B00850278 /* EmojiLookupTests.swift */; };
+		D823E3D420A1811B00850278 /* EmojiLookupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D823E3D120A1811B00850278 /* EmojiLookupTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +92,7 @@
 		3ED83F532035CF3C009CADD6 /* StringExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensionTests.swift; path = Tests/StringExtensionTests.swift; sourceTree = SOURCE_ROOT; };
 		3ED83F572035CFF4009CADD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
 		3ED865262034B097005B63ED /* Croc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Croc.swift; path = Source/Croc.swift; sourceTree = SOURCE_ROOT; };
+		D823E3D120A1811B00850278 /* EmojiLookupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLookupTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +204,7 @@
 				3ED83F572035CFF4009CADD6 /* Info.plist */,
 				3ED83F532035CF3C009CADD6 /* StringExtensionTests.swift */,
 				3E3FBD1C203968B800A5AD4A /* CharExtensionTests.swift */,
+				D823E3D120A1811B00850278 /* EmojiLookupTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -375,7 +380,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Joseph Kalash";
 				TargetAttributes = {
 					3E1FAFEA2035B31B002E4DB9 = {
@@ -506,6 +511,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D823E3D220A1811B00850278 /* EmojiLookupTests.swift in Sources */,
 				3ED83F542035CF3C009CADD6 /* StringExtensionTests.swift in Sources */,
 				3E3FBD1D203968B800A5AD4A /* CharExtensionTests.swift in Sources */,
 			);
@@ -541,6 +547,7 @@
 			files = (
 				3EBE5BDD20546FE2004DBA51 /* Character+Unicode.swift in Sources */,
 				3ED83F552035CF3C009CADD6 /* StringExtensionTests.swift in Sources */,
+				D823E3D320A1811B00850278 /* EmojiLookupTests.swift in Sources */,
 				3E3FBD1E203968B800A5AD4A /* CharExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,6 +567,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D823E3D420A1811B00850278 /* EmojiLookupTests.swift in Sources */,
 				3ED83F562035CF3C009CADD6 /* StringExtensionTests.swift in Sources */,
 				3E3FBD1F203968B800A5AD4A /* CharExtensionTests.swift in Sources */,
 			);
@@ -902,6 +910,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -909,6 +918,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -966,6 +976,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -973,6 +984,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

@@ -8,7 +8,8 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/Croc.svg?style=flat)](https://jkalash.github.io/)
 [![License](https://img.shields.io/cocoapods/l/Croc.svg?style=flat)](http://cocoapods.org/pods/Croc)
-[![Swift-4.0+](http://img.shields.io/badge/Swift-4.0%2B-orange.svg)]()
+[![Swift-4.0](http://img.shields.io/badge/Swift-4.1%2B-orange.svg)]()
+[![Codecov](https://codecov.io/github/jkalash/croc/coverage.svg?branch=master)](https://codecov.io/github/jkalash/croc)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MHHC3G7U6UHE2)
 
 ## Usage

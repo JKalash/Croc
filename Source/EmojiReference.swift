@@ -39,7 +39,7 @@ internal class EmojiReference {
                             for emoji in emojis {
                                 if let codepoints_strings  = emoji["codepoints"] as? Array<String>, let description = emoji["description"] as? String {
                                     //Convert codepoints into UInt32
-                                    let codepoints = codepoints_strings.flatMap({ return Unicode.Scalar(UInt32($0, radix: 16)!) })
+                                    let codepoints = codepoints_strings.compactMap({ return Unicode.Scalar(UInt32($0, radix: 16)!) })
                                     emojiList.append(Emoji(group: EmojiGroup(rawValue: group) ?? .objects,
                                                            subgroup: subgroup,
                                                            codePoints: codepoints,
@@ -57,7 +57,7 @@ internal class EmojiReference {
     
     func isEmoji(_ unicode_scalar: Array<Unicode.Scalar>) -> Bool {
         //Convert to array of strings and check if maps to dictionary element
-        let hex_string = unicode_scalar.flatMap({ String(format:"%04X", UInt32($0))  }).joined()
+        let hex_string = unicode_scalar.compactMap({ String(format:"%04X", UInt32($0))  }).joined()
         return emojiHashcodes[hex_string] != nil
     }
     

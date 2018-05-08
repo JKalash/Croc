@@ -45,3 +45,31 @@ public struct Emoji : Equatable {
         return lhs.codePoints == rhs.codePoints
     }
 }
+
+//Starting with Swift 4.2, we can add protocol conformance to CaseIterable to benefit from 'allCases'
+//Include custom implementation for backwards compatibility
+
+extension EmojiGroup: CaseIterable {}
+
+#if swift(>=4.2)
+#else
+public protocol CaseIterable {
+    associatedtype AllCases: Collection where AllCases.Element == Self
+    static var allCases: AllCases { get }
+}
+extension CaseIterable where Self: Hashable {
+    public static var allCases: [Self] {
+        return [Self](AnySequence { () -> AnyIterator<Self> in
+            var raw = 0
+            return AnyIterator {
+                let current = withUnsafeBytes(of: &raw) { $0.load(as: Self.self) }
+                guard current.hashValue == raw else {
+                    return nil
+                }
+                raw += 1
+                return current
+            }
+        })
+    }
+}
+#endif
