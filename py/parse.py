@@ -21,12 +21,12 @@ subgroup_name = ""
 for line in lines:
 	# There are 3 possible line formats
 	#1. Group: GROUP_NAME
-	if line.startswith("group: "):
-		group_name = chomp(line.replace("group: ", ""))
+	if line.startswith("Group: "):
+		group_name = chomp(line.replace("Group: ", ""))
 		emojis[group_name] = dict()
 	# 2. Subgroup: SUBGROUP_NAME
-	elif line.startswith("subgroup: "):
-		subgroup_name = chomp(line.replace("subgroup: ", ""))
+	elif line.startswith("Subgroup: "):
+		subgroup_name = chomp(line.replace("Subgroup: ", ""))
 		emojis[group_name][subgroup_name] = list()
 	#3.
 	else:
