@@ -3,7 +3,7 @@ import re
 import json
 
 def strip_emojis(line):
-	PERMITTED_CHARS = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-: " 
+	PERMITTED_CHARS = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-: "
 	return "".join(c for c in line if c in PERMITTED_CHARS)
 
 
@@ -12,7 +12,7 @@ def chomp(x):
     if x.endswith("\n"): return x[:-1]
     return x
 
-lines = list(open("emoji-test.txt"))
+lines = list(open("emojis.txt"))
 emojis = dict()
 
 group_name = ""
@@ -28,7 +28,7 @@ for line in lines:
 	elif line.startswith("Subgroup: "):
 		subgroup_name = chomp(line.replace("Subgroup: ", ""))
 		emojis[group_name][subgroup_name] = list()
-	#3. 
+	#3.
 	else:
 		#Lines containing _DISCARD_ should be discarded..
 		if "_DISCARD_" in line:

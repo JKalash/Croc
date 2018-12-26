@@ -54,7 +54,7 @@ public extension Character {
     /// - Parameter char: a Character. Note: Only render first code point to prevent
     /// - Returns: a Portable Network Graphic (png), as Data optional
     func png(ofSize fontSize: CGFloat) -> Data? {
-        let attributes = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: fontSize)]
+        let attributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: fontSize)]
         let charStr = "\(self)" as NSString
         let size = charStr.size(withAttributes: attributes)
         
@@ -63,7 +63,7 @@ public extension Character {
         
         var png:Data? = nil
         if let charImage = UIGraphicsGetImageFromCurrentImageContext() {
-            png = UIImagePNGRepresentation(charImage)
+            png = charImage.pngData()
         }
         
         UIGraphicsEndImageContext()
