@@ -66,33 +66,13 @@ class StringExtensionTests: XCTestCase {
         XCTAssert("NONE".emojiCount == 0)
         XCTAssert("".emojiCount == 0)
         XCTAssert("😈🏪🕣🏳️‍🌈🇱🇧".emojiCount == 5)
-        
-        //Request emojis for a group
-        //Construct a string from a group
-        //Make sure matching emoji count
-        let groups = Croc.groupTypes
-        for group in groups {
-            let emojis = Croc.emojis(for: group)
-            let concat = emojis.map({ String($0)}).joined(separator: " ")
-            XCTAssert(concat.emojiCount == emojis.count)
-        }
-        
     }
     
     func testEmojis() {
         XCTAssert("ok¢∞§ 📞ª🏤 my√∆ß∆ 👻 c 🚬hello _;=-1".emojis == ["📞","🏤", "👻", "🚬"])
         XCTAssert("".emojis == [])
         XCTAssert("hello, world!".emojis == [])
-        
-        //Request emojis for a group
-        //Construct a string from a group
-        //Make sure matching emoji count
-        let groups = Croc.groupTypes
-        for group in groups {
-            let emojis = Croc.emojis(for: group)
-            let concat = emojis.map({ String($0)}).joined(separator: " ")
-            XCTAssert(concat.emojis.count == emojis.count)
-        }
+        XCTAssert("🕵🏿‍♀️".emojis == ["🕵🏿‍♀️"])
     }
     
 }
