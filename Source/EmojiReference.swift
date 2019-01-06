@@ -23,7 +23,6 @@
 //
 
 internal class EmojiReference {
-    
     internal var emojiList : Array<Emoji> = []
     
     //For fast lookup of hashcodes
@@ -69,7 +68,6 @@ internal class EmojiReference {
         }
         return nil
     }
-    
 }
 
 // MARK: Emoji Lookup
@@ -81,12 +79,10 @@ extension EmojiReference {
                 subgroups.insert(emoji.subgroup)
             }
         }
-        
         return Array(subgroups)
     }
     
     func emojis(for subgroup: EmojiSubGroup, limit : Int) -> Array<Character> {
-        
         var emojis : Array<Character> = []
         
         for emoji in self.emojiList {
@@ -110,13 +106,10 @@ extension EmojiReference {
                 break
             }
         }
-        
         return emojis
-        
     }
     
     func emojis(for group: EmojiGroup, limit : Int) -> Array<Character> {
-        
         var emojis : Array<Character> = []
         
         for emoji in self.emojiList {
@@ -140,9 +133,6 @@ extension EmojiReference {
                 break
             }
         }
-        
         return emojis
-        
     }
-    
 }

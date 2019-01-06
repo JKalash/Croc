@@ -62,8 +62,8 @@ class StringExtensionTests: XCTestCase {
     }
     
     func testEmojiCount() {
-        
-        
+        XCTAssert("🕵🏿‍♀️".emojiCount == 1)
+        XCTAssert("NONE".emojiCount == 0)
         XCTAssert("".emojiCount == 0)
         XCTAssert("😈🏪🕣🏳️‍🌈🇱🇧".emojiCount == 5)
         

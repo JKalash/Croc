@@ -1,2 +1,1 @@
-Run `python3 parse.py` to generate JSON of emojis from emoji-test.txt
-(fetch updated version of emoji-test.txt from http://www.unicode.org/Public/emoji/latest/emoji-test.txt)
+Run `python generate_emojis.py` to generate JSON of emojis from public emoji data. Script uses latest version of emoji-test.txt from http://www.unicode.org/Public/emoji/latest/emoji-test.txt)
