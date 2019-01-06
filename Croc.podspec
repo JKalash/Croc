@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Croc'
-  s.version          = '0.0.2'
+  s.version          = '0.1.1'
   s.summary          = 'Elegant Emoji Parsing in Swift'
  
   s.description      = <<-DESC
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
  
   s.homepage         = 'https://github.com/JKalash/Croc'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Joseph Kalash' => 'josephkalash@gmail.com' }
+  s.author           = { 'Joe Kalash' => 'josephkalash@gmail.com' }
   s.source           = { :git => 'https://github.com/JKalash/Croc.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '8.0'
